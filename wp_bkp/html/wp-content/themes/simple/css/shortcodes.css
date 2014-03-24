@@ -1,0 +1,631 @@
+
+/* Highlight & Tooltips
+=========================================================*/
+.box {
+	padding:15px;
+}
+
+.colorTip{
+	/* This class is assigned to the color tip span by jQuery */
+	display:none;
+	position:absolute;	
+	left:50%;
+	top:-30px;
+	padding:6px;
+	
+	background-color:white;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11px;
+	font-style:normal;
+	line-height:1;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0 0 1px white;
+	white-space:nowrap;
+	
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+
+.pointyTip,.pointyTipShadow{
+	/* Setting a thick transparent border on a 0x0 div to create a triangle */
+	border:6px solid transparent;
+	bottom:-12px;
+	height:0;
+	left:50%;
+	margin-left:-6px;
+	position:absolute;
+	width:0;
+}
+
+.pointyTipShadow{
+	/* The shadow tip is 1px larger, so it acts as a border to the tip */
+	border-width:7px;
+	bottom:-14px;
+	margin-left:-7px;
+}
+
+.colorTipContainer{
+	position:relative;
+	text-decoration:none !important;
+	display:inline-block;
+}
+
+.white .pointyTip{ border-top-color:white;}
+.white .pointyTipShadow{ border-top-color:#ddd;}
+.white .colorTip{
+	background-color:white;
+	border:1px solid #DDDDDD;
+	color:#555555;
+}
+
+.yellow .pointyTip{ border-top-color:#f9f2ba;}
+.yellow .pointyTipShadow{ border-top-color:#e9d315;}
+.yellow .colorTip{
+	background-color:#f9f2ba;
+	border:1px solid #e9d315;
+	color:#5b5316;
+}
+
+.black .pointyTip{ border-top-color:#333;}
+.black .pointyTipShadow{ border-top-color:#111;}
+.black .colorTip{
+	background-color:#333;
+	border:1px solid #111;
+	color:#fcfcfc;
+	text-shadow:none;
+}
+
+/* Social Icons
+=========================================================*/
+.social-normal i, .social-color i { 
+    display:inline-block;
+	margin:10px;
+}
+
+.social-color {
+	padding:10px;
+}
+
+.the-icons {
+	margin:0 20px 0 20px;
+	padding:0 8px;
+}
+
+.the-icons li {
+	margin:8px 0;
+	vertical-align: baseline;
+}
+
+.the-icons li i {
+	margin-right:10px;
+}
+
+.icons-color {
+	overflow:hidden;
+}
+
+/* Accordion
+=========================================================*/
+.ui-accordion .ui-accordion-header {
+	display: block; 
+	cursor: pointer; 
+	position: relative; 
+	zoom: 1; 
+}
+
+.accordion h4 {
+	padding:10px 20px;
+	margin-bottom:4px;
+}
+
+.accordion p {
+	padding:13px 17px;
+	margin-bottom:4px;
+}
+
+.accordion .icon-plus, .accordion .icon-minus  {
+	margin-top: 8px;
+}
+
+.ui-accordion .ui-accordion-content {
+	overflow: hidden;
+	zoom: 1; 
+}
+
+/* style 2 */
+.accordion.style2 h4, .accordion.style2 p {
+	background:none !important;
+}
+
+.accordion.style2 h4 {
+	margin-bottom:0;
+	padding:11px 20px 11px 0;
+}
+
+.accordion.style2 h4.ui-state-active {
+	border-bottom:0 !important;
+}
+
+.accordion.style2 p {
+	padding:5px 0 20px 0;
+	margin-bottom:0;
+}
+
+.accordion.style2 .icon-plus, .accordion.style2 .icon-minus  {
+	margin-top: 0;
+	margin-right:17px;
+	padding:7px 9px;
+}
+
+/* Progress Bar
+=========================================================*/
+.progress-bar .meter, .meter .meter-content {
+	height: 37px;
+}
+
+.progress-bar .meter { 
+	position: relative;
+	margin-bottom:20px;
+}
+
+.meter .meter-content[data-percentage] {
+	text-indent: -9999px;
+}
+
+.meter .meter-title {
+	top: 12px;
+    left: 17px;
+	position: absolute;
+}
+
+/* Buttons
+=========================================================*/
+.button {
+	display:inline-block;
+	margin:5px 5px 5px 0;
+	border:none;
+	cursor:pointer;
+	text-shadow:none !important;
+}
+
+.button.small {
+	padding: 12px 22px;
+}
+
+.button, .button.medium {
+	padding: 15px 30px;
+}
+
+.button.large {
+	padding: 17px 31px;
+}
+
+/* Tabs
+=========================================================*/
+
+/* horizontal tabs */
+#horizontal-tabs ul.tabs {
+	overflow:hidden;
+}
+
+#horizontal-tabs ul.tabs li {
+	padding:16px 22px;
+	cursor:pointer;
+}
+
+#horizontal-tabs .tabscontent.no-padding {
+	padding-left:0; padding-right:0;
+}
+
+#horizontal-tabs .contents {
+	margin-top:-1px;
+}
+
+/* vertical tabs */
+#vertical-tabs .contents {
+	width:65%;
+}
+
+#vertical-tabs ul.tabs {
+	overflow:hidden;
+	width:34%;
+	position:relative;
+}
+
+#vertical-tabs ul.tabs li {
+	padding:16px 22px;
+	cursor:pointer;
+}
+
+#vertical-tabs .contents {
+	margin-left:-1px;
+}
+
+/* common */
+#horizontal-tabs ul.tabs li.current, #vertical-tabs ul.tabs li.current {
+	background:none;
+	cursor:default;
+}
+
+#horizontal-tabs .tabscontent, #vertical-tabs .tabscontent {
+	padding:20px;
+	display:none;
+	overflow: hidden;
+}
+
+/* style2 */
+#horizontal-tabs.style2 ul.tabs li, #horizontal-tabs.style2 ul.tabs, #horizontal-tabs.style2 .contents, #vertical-tabs.style2 ul.tabs li, #vertical-tabs.style2 ul.tabs, #vertical-tabs.style2 .contents {
+	border:none !important;
+}
+
+#horizontal-tabs.style2 ul.tabs li {
+	margin-right:3px;
+	margin-bottom:3px;
+}
+
+#horizontal-tabs.style2 .contents {
+	margin-top:1px;
+}
+
+#vertical-tabs.style2 ul.tabs li {
+	margin-bottom:3px;
+}
+
+#vertical-tabs.style2 .contents {
+	margin-left:4px;
+}
+
+/* Alert Boxes
+=========================================================*/
+.alert {
+	padding:14px 30px 14px 20px;
+	position:relative;
+	margin-bottom:16px;
+}
+
+.error {
+	background-color: #f9d9d9;
+	color: #aa4343;
+}
+
+.success {
+	background-color: #d8f1c6;
+	color: #769958;
+}
+
+.info {
+	background-color: #d7e3f4;
+	color: #728095;
+}
+
+.notice {
+	background-color: #fbf4dd;
+	color: #a38c68;
+}
+
+.alert i {
+	margin:1px 10px 0 0 ;
+}
+
+.close { position:absolute; right: 4px; top: 16px; cursor:pointer; }
+
+/* Toggle
+=========================================================*/
+#toggle-view li {
+	position:relative;
+	cursor:pointer;
+	margin-bottom:17px;
+}
+
+#toggle-view li h4{
+    padding: 10px 20px;
+}
+
+#toggle-view span.link {
+	position:absolute;
+	right: 18px;
+	top: 13px;
+}
+
+#toggle-view .panel {
+	padding: 13px 17px;
+	display:none;
+	cursor:text;
+}
+
+#toggle-view .panel.normal, #toggle-view li h4.normal.border {
+	background:none;
+}
+
+/* Blockquote
+=========================================================*/
+blockquote {
+	padding:15px;
+	margin-bottom:10px;
+}
+
+/* Info Box
+=========================================================*/
+.info-box {
+	padding:17px;
+}
+
+/* Dropcaps
+=========================================================*/
+.dropcap {
+	padding:5px 10px;
+	float: left;
+    margin: 5px 10px 0 0;
+}
+
+/* List Styles
+=========================================================*/
+.square-list li, .check-list li, .plus-list li, .arrow-list li, .cross-list li, .star-list li, .minus-list li, .heart-list li, .circle-list li, .asterisk-list li {
+	padding:5px 5px 5px 18px;
+	line-height:20px;
+	position: relative;
+}
+
+.square-list li:before {
+	content: '\f04d'; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit;
+    font-size: 6px; position: absolute; top: 5px; left: 0;
+}
+
+.check-list li:before {
+	content: '\f00c'; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit;
+    font-size: 11px; position: absolute; top: 4px; left: 0;
+}
+
+.plus-list li:before {
+	content: '\f067'; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit;
+    font-size: 10px; position: absolute; top: 5px; left: 0;
+}
+
+.arrow-list li:before {
+	content: '\f054'; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit;
+    font-size: 11px; position: absolute; top: 6px; left: 0;
+}
+
+.cross-list li:before {
+	content: '\f00d'; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit;
+    font-size: 12px; position: absolute; top: 5px; left: 0;
+}
+
+.star-list li:before {
+	content: '\f005'; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit;
+    font-size: 11px; position: absolute; top: 5px; left: 0;
+}
+
+.minus-list li:before {
+	content: '\f068'; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit;
+    font-size: 10px; position: absolute; top: 6px; left: 0;
+}
+
+.heart-list li:before {
+	content: '\f004'; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit;
+    font-size: 9px; position: absolute; top: 5px; left: 0;
+}
+
+.circle-list li:before {
+	content: '\f111'; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit;
+    font-size: 8px; position: absolute; top: 5px; left: 0;
+}
+
+.asterisk-list li:before {
+	content: '\f069'; font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit;
+    font-size: 9px; position: absolute; top: 5px; left: 0;
+}
+
+
+/* Pagination
+=========================================================*/
+.pagination {
+	margin:25px 0 5px 0;
+	overflow:hidden;
+}
+
+.pagination a {
+	margin:5px 5px 0 0;
+	padding:9px 14px;
+}
+
+.pagination a.next-button, .pagination a.prev-button {
+	padding: 3px 14px;
+}
+
+/* Breadcrumbs
+=========================================================*/
+.breadcrumbs {
+	padding:12px 12px 12px 6px;
+}
+
+.breadcrumbs li {
+	display:inline;
+	padding:0 ;
+}
+
+.breadcrumbs li i { margin:0 10px; }
+
+.breadcrumbs.gray, .breadcrumbs.normal {
+	border:none;
+}
+
+/* Videos
+=========================================================*/
+.video-wrap {
+	height: 0;
+	padding-top: 25px;
+	padding-bottom: 67.5%;
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.video-wrap.vimeo {
+	padding-top: 0;
+}
+
+.video-wrap.widescreen {
+	padding-bottom: 57.25%;
+}
+
+.video-wrap embed, .video-wrap iframe, .video-wrap object, .video-wrap video {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+	.video-wrap {
+		padding-top: 0;
+	}
+}
+
+/* Tables
+=========================================================*/
+table.style {
+	width:100%;
+	margin-bottom: 10px;
+	text-align:left;
+}
+
+table.style th {
+font-weight: bold;
+}
+
+table.style th, table.style td {
+	padding:11px;
+}
+
+/* Form Elements
+=========================================================*/
+.form-elements input[type="text"], .form-elements select, .form-elements textarea {
+	padding:10px;
+}
+
+.form-elements input[type="text"] {
+	min-width:220px;
+}
+
+.form-elements select {
+	min-width:240px;
+	margin-top:10px;
+}
+
+.form-elements textarea {
+	margin-top:15px;
+	min-height:214px;
+	width:95%;
+}
+
+.form-elements fieldset {
+	margin-bottom:10px;
+	min-height:30px;
+}
+
+.form-elements span {
+	min-width:90px;
+	display:inline-block;
+} 
+
+/* Checkboxes and Radio inputs */
+.form-elements input[type="radio"], .form-elements input[type="checkbox"] { 
+	position: absolute; left: -999em; 
+}
+
+.form-elements label {
+	cursor:pointer;
+}
+
+.form-elements label:before { 
+	display: inline-block; position: relative; top:7px; left:0; 
+	content:''; width:25px; height:25px;
+	background-image:url(../images/icons/formelements.png); 
+	margin-right: 4px;
+}
+
+.form-elements input[type="checkbox"] + label:before { background-position: 0 -25px;}
+.form-elements input[type="checkbox"]:checked + label:before {background-position: 0 0 ; }
+.form-elements input[type="radio"] + label:before { background-position: -25px -25px;}	 	
+.form-elements input[type="radio"]:checked + label:before { background-position: -25px 0;}
+
+/* Remove the custom styling for IE 7-8 */
+.ie8 .form-elements label:before { display:none; content:none; }
+.ie8 .form-elements input[type="checkbox"], .ie8 .form-elements input[type="radio"], .ie7 .form-elements input[type="checkbox"], .ie7 .form-elements input[type="radio"]{ 
+	position: static; left:0; 
+}
+
+.ie8 .form-elements input[type="checkbox"], .ie8 .form-elements input[type="radio"] { 
+	position:relative; top:2px; margin-right:5px;
+}	
+	
+/* welcome, qoute box
+=========================================================*/
+.welcome {
+	padding: 30px 10%;
+	margin-bottom: 25px;
+}
+
+.welcome p {
+	line-height:37px;
+}
+
+.qoute {
+	padding: 30px 3%;
+    overflow: hidden;
+	margin-bottom: 25px;
+}
+
+/* pricing tables */
+.tables-column {
+	margin-bottom:20px !important;
+}
+
+.tables-column .header h3 {
+	padding: 12px 10px;
+	margin-bottom:0;
+	position:relative;
+	overflow:hidden;
+}
+
+.tables-column .header h3 span.pop {
+	padding: 0 20px;
+	display: inline-block;
+	height: 21px;
+	line-height: 24px;
+	position: absolute;
+	top: 12px;
+	right: -20px;
+}
+
+.tables-column .header .price {
+	padding:15px 10px;
+}
+
+.tables-column .header .price h2 {
+	margin-bottom:3px;
+	font-weight:bold;
+}
+
+.tables-column .list {
+	padding:3px 15px;
+}
+
+.tables-column .list li {
+	padding:13px 0;
+}
+
+.tables-column .footer {
+	margin: 20px 0 25px 0;
+	padding:0 20px;
+}
+
+.tables-column .footer h4 a {
+	display:block;
+	padding:7px;
+}

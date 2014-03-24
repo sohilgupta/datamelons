@@ -1,0 +1,89 @@
+********************************************************************************
+PACKAGE-LOG: 2014-03-22 13:52:46
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.2
+WORDPRESS:	3.8.1
+PHP INFO:	5.4.16 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (256M default) 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP
+MYSQLDUMP:    Is Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:21 | filtered:0 | create:21 
+FILTERED: [] 
+wp_fkkgkksccw_cimy_uef_data (35) 
+wp_fkkgkksccw_cimy_uef_fields (17) 
+wp_fkkgkksccw_cimy_uef_wp_fields (0) 
+wp_fkkgkksccw_commentmeta (0) 
+wp_fkkgkksccw_comments (1) 
+wp_fkkgkksccw_duplicator_packages (1) 
+wp_fkkgkksccw_formmaker (12) 
+wp_fkkgkksccw_formmaker_sessions (0) 
+wp_fkkgkksccw_formmaker_submits (23) 
+wp_fkkgkksccw_formmaker_themes (41) 
+wp_fkkgkksccw_formmaker_views (11) 
+wp_fkkgkksccw_links (0) 
+wp_fkkgkksccw_options (341) 
+wp_fkkgkksccw_postmeta (283) 
+wp_fkkgkksccw_posts (78) 
+wp_fkkgkksccw_term_relationships (19) 
+wp_fkkgkksccw_term_taxonomy (5) 
+wp_fkkgkksccw_terms (5) 
+wp_fkkgkksccw_usermeta (109) 
+wp_fkkgkksccw_users (6) 
+wp_fkkgkksccw_wowslider (4) 
+SQL CREATED: 20140322_datamelons_532d95ae8e0622135140322135246_database.sql 
+SQL FILE SIZE: 1.6MB 
+SQL RUNTIME: 0.19 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/content/p3nexnas03/08/2060808/html 
+ARCHIVE FILE: 20140322_datamelons_532d95ae8e0622135140322135246_archive.zip 
+FILTER DIRS:   
+FILTER EXTS:   
+---------------------------------------- 
+SCANNING 
+FILTERS *OFF* 
+STATS:	Dirs 910 | Files 6000 | Links 0 
+SIZE:	115.82MB 
+TIME:	4.53 sec. 
+---------------------------------------- 
+COMPRESSING 
+SQL ADDED: 20140322_datamelons_532d95ae8e0622135140322135246_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6911
+    [filename] => /home/content/p3nexnas03/08/2060808/html/wp-snapshots/tmp/20140322_datamelons_532d95ae8e0622135140322135246_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 60.2MB 
+ARCHIVE RUNTIME: 21.83 sec. 
+
+******************************************************************************** 
+INSTALLER: 
+******************************************************************************** 
+INSTALLER FILE: Build Start 
+INSTALLER FILE: Build Finished 
+INSTALLER FILE: Preping for use 
+INSTALLER FILE: Template parsed with new data 
+INSTALLER FILE: Complete [/home/content/p3nexnas03/08/2060808/html/wp-snapshots/tmp/20140322_datamelons_532d95ae8e0622135140322135246_installer.php] 
+
+********************************************************************************
+RECORD ID:[1]
+FILE SIZE: Archive:60.2MB | SQL:1.6MB | Installer:408.51KB
+TOTAL PROCESS RUNTIME: 22.33 sec.
+DONE PROCESSING => 20140322_datamelons 2014-03-22 13:53:08
+********************************************************************************
+ 

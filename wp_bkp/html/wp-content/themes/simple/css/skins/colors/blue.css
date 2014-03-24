@@ -1,0 +1,42 @@
+
+/* Backgrounds
+================================================== */
+::-moz-selection {
+    background:#378ac4;
+}
+
+::selection {
+    background:#378ac4;
+}
+
+.services.style-1 .item.active .circle, .services.style-1 .item:hover .circle, .more:hover, .subscribe input.submit, #menu > a, .page-title, .accordion h4.ui-state-active, .accordion.style2 h4.ui-state-active .icon-plus, .accordion.style2 h4.ui-state-active .icon-minus, .meter > span:after, .animate > span > span, .button.color, .button.black:hover, #horizontal-tabs.style2 ul.tabs li.current, #vertical-tabs.style2 ul.tabs li.current, #horizontal-tabs.style2 ul.tabs li:hover, #vertical-tabs.style2 ul.tabs li:hover, #toggle-view li h4.color, .highlight-color, .dropcap.color, .pagination a.next-button:hover, .pagination a.prev-button:hover, .pagination a:hover, .pagination a.current, table.style.color th, .meter .meter-content, .team .item .member-social a:hover, .services.style-2 .item .circle, .services.style-2 .item.active:hover .circle, .services.style-3 .item.active .circle, .services.style-3 .item:hover .circle, .tables-column .footer h4 a:hover, .tables-column.color .header h3 , .tables-column.color .footer h4 a, .tables-column .header h3 span.pop, .share-social a:hover, .popular-tags a:hover, .widget .followers li a:hover, body.under-construction #wrap.boxed, body.under-construction .content input.subscribe-button, .flex-control-nav li a.flex-active, .flex-control-nav li a:hover, header.style-4 .top-bar, html.ie.ie8 .img-caption, html.ie.ie8 .fancybox-title-float-wrap .child, .slide-bg-color {
+	 background:#378ac4;
+}
+
+.img-caption, .fancybox-title-float-wrap .child {
+	background:rgba(55,138,196,.88);
+}
+
+/* Colors 
+================================================== */
+p a, a:hover, .latest-blog .item h3 a:hover, .tweet_list li i.icon-twitter, .tweet.footer .tweet_list li a:hover, footer a:hover, .button.normal:hover, .breadcrumbs a, span.color, .team .item span, .check-list.why li:before, .widget.most-posts ul.posts li a:hover, .blog-3 .item .post-meta a:hover, .post-tags a, .form-box label small, i.color, header.style-4 .navigation > ul > li > a:hover, header.style-4 .navigation > ul > li > a.selected, header.style-4 .navigation > ul > li.active > a {
+	 color:#378ac4;
+}
+
+/* borders
+================================================== */
+.navigation ul li a:hover, .navigation ul li a.selected, .navigation ul li.active a {
+	border-top:4px solid #378ac4;
+}
+
+#horizontal-tabs ul.tabs li.current {
+	border-top:2px solid #378ac4;
+}
+
+#vertical-tabs ul.tabs li.current {
+	border-left:2px solid #378ac4;
+}
+
+header.style-3 .navigation ul li a:hover, header.style-3 .navigation ul li a.selected, header.style-3 .navigation ul li.active a {
+	border-top:1px solid #378ac4;
+}

@@ -1,0 +1,887 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VisitPress v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-30 11:27+0100\n"
+"PO-Revision-Date: 2013-09-26 14:37+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n"
+"+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ visitpress
+#: 404.php:16 search.php:29
+msgid "Nothing Found"
+msgstr "Nenalezeno"
+
+# @ visitpress
+#: 404.php:17
+msgid ""
+"Apologies, but no results were found for your request. Perhaps searching "
+"will help you to find a related content."
+msgstr ""
+"Je nám líto, ale nebyly nalezeny žádné výsledky pro váš požadavek. Možná, že "
+"vyhledávání vám pomůže najít související obsah."
+
+# @ visitpress
+#: archive.php:18
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archiv článků ze dne: %s"
+
+# @ visitpress
+#: archive.php:20
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archiv článků za měsíc: %s"
+
+# @ visitpress
+#: archive.php:22
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archiv článků za rok: %s"
+
+# @ visitpress
+#: archive.php:24
+msgid "Archives"
+msgstr "Archivy"
+
+# @ visitpress
+#: author.php:18
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archiv autora: %s"
+
+# @ visitpress
+#: author.php:28
+#, php-format
+msgid "About %s"
+msgstr "O autorovi %s"
+
+# @ tgmpa
+# @ visitpress
+#: class-tgm-plugin-activation.php:155 functions.php:310
+msgid "Install Required Plugins"
+msgstr "Instalovat vyžadované pluginy"
+
+# @ tgmpa
+# @ visitpress
+#: class-tgm-plugin-activation.php:156 functions.php:311
+msgid "Install Plugins"
+msgstr "Instalovat pluginy"
+
+# @ tgmpa
+# @ visitpress
+#: class-tgm-plugin-activation.php:157 functions.php:315
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instalace pluginu: %s"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr "Něco se pokazilo."
+
+# @ tgmpa
+# @ visitpress
+#: class-tgm-plugin-activation.php:169 functions.php:321
+msgid "Return to Required Plugins Installer"
+msgstr "Návrat na instalaci vyžadovaných pluginů."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr "Návrat na Nástěnku"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:171 class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr "Plugin byl úspěšně aktivován."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:172
+msgid "The following plugin was activated successfully:"
+msgstr "Následující plugin byl úspěšně aktivován:"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Všechny pluginy byly úspěšně nainstalovány a aktivovány. %1$s"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr "Skrýt toto oznámení"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr "Externí odkaz"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr "Vlastní adresář"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr "Předpřipravený"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr "Adresář WordPress"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr "Vyžadovaný"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr "Doporučený"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr "Nenainstalovaný"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr "Nainstalovaný, ale neaktivní"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Žádné pluginy k instalaci či aktivaci. <a href=\"%1$s\" title=\"Zpět na "
+"Nástěnku\">Zpět na Nástěnku</a>"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr "Plugin"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr "Zdroj"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr "Typ"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr "Status"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr "Instalace"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr "Aktivovat"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr "Instalační balík není k dispozici."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Stahování instalačnéího balíku z <span class=\"code\">%s</span>&#8230;"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr "Rozbalování instalačního balíku&#8230;"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr "Instalace pluginu&#8230;"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr "Instalace pluginu se nezdařila."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr "Plugin byl úspěšně nainstalován."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr "Aktivace pluginu se nezdařila."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Proces instalace a aktivace byl zahájen. Prosím buďte trpěliví, neboť proces "
+"může chvíli trvat."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s byl úspěšně nainstalován a aktivován."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr "Ukázat detaily"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr "Skrýt detaily"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr "Všechny instalace a aktivace byly dokončeny."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalace a aktivace pluginu %1$s (%2$d/%3$d)"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Proces instalace byl zahájen. Prosím buďte trpěliví, neboť proces může "
+"chvíli trvat."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Během instalace %1$s došlo k chybě: <strong>%2$s</strong>."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Instalace %1$s se nezdařila."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s úspěšně nainstalován."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr "Instalace byly dokončeny."
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalace pluginu %1$s (%2$d/%3$d)"
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr "Návrat na Nástěnku"
+
+# @ visitpress
+#: comments.php:30
+msgid "Comment navigation"
+msgstr "Navigace mezi komentáři"
+
+# @ visitpress
+#: comments.php:31
+msgid "&larr; Older Comments"
+msgstr "&larr; Starší komentáře"
+
+# @ visitpress
+#: comments.php:32
+msgid "Newer Comments &rarr;"
+msgstr "Novější komentáře &rarr;"
+
+# @ visitpress
+#: comments.php:37
+msgid "Comments are closed."
+msgstr "Přidávání komentářů není povoleno."
+
+# @ default
+#: functions.php:85
+msgid "Header Menu"
+msgstr "Navigace v záhlaví"
+
+# @ default
+#: functions.php:86
+msgid "Sidebar Menu"
+msgstr "Navigace v postranním sloupci"
+
+# @ visitpress
+#: functions.php:98
+msgid "Main Sidebar"
+msgstr "Postranní sloupec"
+
+# @ visitpress
+#: functions.php:100
+msgid "Right sidebar which appears on posts and pages."
+msgstr "Pravý postranní sloupec, který se objevuje u stránek a příspěvků."
+
+# @ visitpress
+#: functions.php:107
+msgid "Footer left widget"
+msgstr "Levý widget v zápatí"
+
+# @ visitpress
+#: functions.php:109
+msgid ""
+"Left widget from the footer widget area. Please insert only one widget to "
+"this area."
+msgstr ""
+"Levý widget z panelu pro widgety v zápatí. Prosím vložte sem pouze jeden "
+"widget."
+
+# @ visitpress
+#: functions.php:116
+msgid "Footer middle widget"
+msgstr "Prostřední widget v zápatí"
+
+# @ visitpress
+#: functions.php:118
+msgid ""
+"Middle widget from the footer widget area. Please insert only one widget to "
+"this area."
+msgstr ""
+"Prostřední widget z panelu pro widgety v zápatí. Prosím vložte sem pouze "
+"jeden widget."
+
+# @ visitpress
+#: functions.php:125
+msgid "Footer right widget"
+msgstr "Pravý widget v zápatí"
+
+# @ visitpress
+#: functions.php:127
+msgid ""
+"Right widget from the footer widget area. Please insert only one widget to "
+"this area."
+msgstr ""
+"Pravý widget z panelu pro widgety v zápatí. Prosím vložte sem pouze jeden "
+"widget."
+
+# @ visitpress
+#: functions.php:134
+msgid "Footer notices"
+msgstr "Informace v zápatí"
+
+# @ visitpress
+#: functions.php:136
+msgid "The line for copyright and other notices below the footer widget area."
+msgstr ""
+"Řádek pro informace o autorství a další poznámky pod panelem pro widgety v "
+"zápatí."
+
+# @ visitpress
+#: functions.php:143
+msgid "Home page slideshow"
+msgstr "Slideshow na úvodní stránce"
+
+# @ visitpress
+#: functions.php:145
+msgid ""
+"The area for Cyclone Slider Widget which displays a slideshow on your home "
+"page."
+msgstr ""
+"Oblast určená pro vložení Cyclone Slider Widgetu pro zobrazení slideshow na "
+"úvodní stránce."
+
+# @ visitpress
+#: functions.php:152
+msgid "Header icons"
+msgstr "Ikony v záhlaví"
+
+# @ visitpress
+#: functions.php:154
+msgid ""
+"Insert here the VisitPress Header Bar Widget. Then fill your home/contact/"
+"sitemap URLs. The links will display as icons in header."
+msgstr ""
+"Oblast určená pro VisitPress Header Bar Widget. Vyplňte URL adresy domovské "
+"a kontaktní stránky a mapy stránek. Odkazy se objeví v podobě ikon v záhlaví "
+"webu."
+
+# @ visitpress
+#: functions.php:173 functions.php:187
+msgid "Post navigation"
+msgstr "Navigace mezi příspěvky"
+
+# @ visitpress
+#: functions.php:174
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Starší příspěvky"
+
+# @ visitpress
+#: functions.php:175
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Novější příspěvky <span class=\"meta-nav\">&rarr;</span>"
+
+# @ visitpress
+#: functions.php:188
+msgid "&larr; Previous post"
+msgstr "&larr; Předchozí příspěvek"
+
+# @ visitpress
+#: functions.php:189
+msgid "Next post &rarr;"
+msgstr "Další příspěvek &rarr;"
+
+# @ visitpress
+#: functions.php:205
+msgid "Pingback:"
+msgstr "Pingback:"
+
+# @ visitpress
+#: functions.php:205
+msgid "(Edit)"
+msgstr "(Upravit)"
+
+#: functions.php:218
+msgid "(Post author)"
+msgstr "(Autor příspěvku)"
+
+# @ visitpress
+#: functions.php:224
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s v %2$s"
+
+# @ visitpress
+#: functions.php:230
+msgid "Your comment is awaiting moderation."
+msgstr "Váš komentář čeká na schválení."
+
+# @ visitpress
+#: functions.php:235
+msgid "Edit"
+msgstr "Upravit"
+
+# @ visitpress
+#: functions.php:239
+msgid "Reply"
+msgstr "Odpovědět"
+
+# @ visitpress
+#: functions.php:312
+#, php-format
+msgid ""
+"The %1$s plugin is required for this theme. Click on the big blue button "
+"below to install and activate %1$s."
+msgstr ""
+"Plugin %1$s je vyžadován pro tuto šablonu. Klikněte na velké modré tlačítko "
+"níže pro nainstalování pluginu %1$s."
+
+# @ visitpress
+#: functions.php:313
+#, php-format
+msgid ""
+"The %1$s is installed but currently inactive. Please go to the <a href=\"%2$s"
+"\">plugin administration page</a> page to activate it."
+msgstr ""
+"Plugin %1$s byl nainstalován, ale nyní je neaktivní. Přejděte prosím na <a "
+"href=\"%2$s\">stránku s administrací pluginů</a> a aktivujte jej."
+
+# @ visitpress
+#: functions.php:314
+#, php-format
+msgid "Install %s Now"
+msgstr "Instalovat %s nyní"
+
+# @ visitpress
+#: functions.php:316
+msgid "Something went wrong with the plugin API."
+msgstr "Něco se pokazilo s API pluginu."
+
+# @ visitpress
+#: functions.php:317
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. <a href=\"%2$s\"><strong>Click here to "
+"begin the installation process</strong></a>. You may be asked for FTP "
+"credentials based on your server setup."
+msgstr ""
+"Tato šablona vyžaduje plugin %1$s. <a href=\"%2$s\"><strong>Klikněte zde pro "
+"zahájení instalace</strong></a>. V závislosti na nastavení Vašeho serveru "
+"budete možná vyzváni k zadání přístupových údajů k FTP."
+
+# @ visitpress
+#: functions.php:318
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"Je nám líto, ale bohužel nemáte dostatečná oprávnění k instalaci pluginu %s. "
+"Kontaktujte administrátora tohoto webu pro pomoc s instalací pluginu."
+
+# @ visitpress
+#: functions.php:319
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. That plugin is currently inactive, so "
+"please go to the <a href=\"%2$s\">plugin administration page</a> to activate "
+"it."
+msgstr ""
+"Tato šablona vyžaduje plugin %1$s. Tento plugin je nyní neaktivní, proto "
+"prosím přejděte na <a href=\"%2$s\">stránku s administrací pluginů</a>a "
+"aktivujte jej."
+
+# @ visitpress
+#: functions.php:320
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"Je nám líto, ale bohužel nemáte dostatečná oprávnění k aktivaci pluginu %s. "
+"Kontaktujte administrátora tohoto webu pro pomoc s aktivací pluginu."
+
+# @ visitpress
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Výsledky vyhledávání pro: %s"
+
+# @ visitpress
+#: search.php:30
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Je nám líto, ale Vašim kritériím nevyhovuje žádný výsledek. Zkuste to prosím "
+"znovu s jiným vyhledávacím dotazem."
+
+# @ visitpress
+#: search.php:34
+msgid "Search results navigation"
+msgstr "Navigace mezi výsledky vyhledávání"
+
+# @ visitpress
+#: search.php:35
+msgid "<span class=\"meta-nav\">&larr;</span> Previous results"
+msgstr "<span class=\"meta-nav\">&larr;</span> Předchozí výsledky"
+
+# @ visitpress
+#: search.php:36
+msgid "Next results <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Další výsledky <span class=\"meta-nav\">&rarr;</span>"
+
+# @ visitpress
+#: tag.php:16
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archiv štítku: %s"
+
+# @ visitpress
+#: functions/be/fw-options.php:1856
+msgid "settings reset."
+msgstr "nastavení resetováno."
+
+# @ visitpress
+#: functions/be/fw-setup.php:16
+msgid "Theme Options"
+msgstr "Nastavení šablony"
+
+# @ visitpress
+#: functions/fe/header-bar-widget.php:12
+msgid "Displays the home/contact/sitemap links in header."
+msgstr "Zobrazí lištu s odkazy domů/kontakt/mapa stránek v záhlaví."
+
+# @ visitpress
+#: functions/fe/header-bar-widget.php:14
+msgid "VisitPress Header Bar Widget"
+msgstr "VisitPress Header Bar Widget"
+
+# @ visitpress
+#: functions/fe/header-bar-widget.php:41
+msgid "Home page URL:"
+msgstr "URL adresa úvodní stránky:"
+
+# @ visitpress
+#: functions/fe/header-bar-widget.php:45
+msgid "Insert the URL of your Home page (example: http://www.yourdomain.com)."
+msgstr ""
+"Zde vložte URL adresu úvodní stránky Vašeho webu (příklad: http://www."
+"vasedomena.com)."
+
+# @ visitpress
+#: functions/fe/header-bar-widget.php:51
+msgid "Contact page/e-mail:"
+msgstr "Kontaktní stránka/e-mail:"
+
+# @ visitpress
+#: functions/fe/header-bar-widget.php:55
+msgid ""
+"Insert the full URL of your Contact page or contact e-mail address If you "
+"want to insert an e-mail, please add the prefix \"mailto:\" (example: mailto:"
+"info@yourdomain.com)."
+msgstr ""
+"Zde vložte celou URL adresu of Vaší kontaktní stránky nebo kontaktní e-"
+"mailovou adresu. Pokud vkládáte e-mail, přidejte prosím před adresu předponu "
+"\"mailto:\" (příklad: mailto:info@vasedomena.com)."
+
+# @ visitpress
+#: functions/fe/header-bar-widget.php:61
+msgid "Sitemap URL:"
+msgstr "Adresa mapy stránek:"
+
+# @ visitpress
+#: functions/fe/header-bar-widget.php:65
+msgid ""
+"Insert the full URL of your Sitemap page (example: http://www.yourdomain.com/"
+"sitemap)."
+msgstr ""
+"Zde vložte celou URL adresu mapy stránek Vašeho webu (příklad: http://www."
+"vasedomena.com/sitemap)."
+
+# @ visitpress
+#: functions/fe/library.php:46 functions/fe/library.php:56
+msgid "<strong>Posted</strong>: "
+msgstr "<strong>Publikováno</strong>: "
+
+# @ visitpress
+#: functions/fe/library.php:66
+msgid "<strong>Category</strong>: "
+msgstr "<strong>Rubrika</strong>: "
+
+# @ visitpress
+#: functions/fe/library.php:74 functions/fe/library.php:80
+msgid "<strong>Author</strong>: "
+msgstr "<strong>Autor</strong>: "
+
+# @ visitpress
+#: functions/fe/social-widget.php:12
+msgid "A Social widget by visitpress"
+msgstr "Widget sociálních sítí pro VisitPress"
+
+# @ visitpress
+#: functions/fe/social-widget.php:14
+msgid "VisitPress Social Widget"
+msgstr "VisitPress Social Widget"
+
+# @ visitpress
+#: functions/fe/social-widget.php:86 functions/fe/twitter-widget.php:39
+msgid "Title:"
+msgstr "Titulek:"
+
+# @ visitpress
+#: functions/fe/social-widget.php:93
+msgid "Twitter:"
+msgstr "Twitter:"
+
+# @ visitpress
+#: functions/fe/social-widget.php:97
+msgid "Insert the full URL of your Twitter profile."
+msgstr "Vložte celou URL adresu Vašeho Twitter profilu."
+
+# @ visitpress
+#: functions/fe/social-widget.php:103
+msgid "Facebook:"
+msgstr "Facebook:"
+
+# @ visitpress
+#: functions/fe/social-widget.php:107
+msgid "Insert the full URL of your Facebook profile, page or group."
+msgstr "Vložte celou URL adresu Vašeho Facebook profilu, stránky nebo skupiny."
+
+# @ visitpress
+#: functions/fe/social-widget.php:113
+msgid "RSS:"
+msgstr "RSS:"
+
+# @ visitpress
+#: functions/fe/social-widget.php:117
+msgid "Insert the Url of your RSS. You may include your RSS from Feedburner."
+msgstr ""
+"Vložte URL adresu Vašeho RSS kanálu. Můžete vložit Vaše RSS z Feedburneru."
+
+# @ visitpress
+#: functions/fe/social-widget.php:123
+msgid "Google Plus:"
+msgstr "Google Plus:"
+
+# @ visitpress
+#: functions/fe/social-widget.php:127
+msgid "Insert the full URL of your Google Plus profile"
+msgstr "Vložte celou URL adresu Vašeho Google Plus profilu"
+
+# @ visitpress
+#: functions/fe/social-widget.php:133
+msgid "You Tube:"
+msgstr "Youtube:"
+
+# @ visitpress
+#: functions/fe/social-widget.php:137
+msgid "Insert the full URL of your YouTube profile."
+msgstr "Vložte celou URL adresu Vašeho Youtube profilu."
+
+# @ visitpress
+#: functions/fe/social-widget.php:143
+msgid "Linkedin:"
+msgstr "Linkedin:"
+
+# @ visitpress
+#: functions/fe/social-widget.php:147
+msgid "Insert the full URL of your Linkedin profile."
+msgstr "Vložte celou URL adresu Vašeho Linkedin profilu."
+
+# @ visitpress
+#: functions/fe/social-widget.php:153
+msgid "Delicious:"
+msgstr "Delicious:"
+
+# @ visitpress
+#: functions/fe/social-widget.php:157
+msgid "Insert the full URL of your Delicious profile."
+msgstr "Vložte celou URL adresu Vašeho Delicious profilu."
+
+# @ visitpress
+#: functions/fe/social-widget.php:163
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+# @ visitpress
+#: functions/fe/social-widget.php:167
+msgid "Insert the full URL of your Pinterest profile."
+msgstr "Vložte celou URL adresu Vašeho Pinterest profilu."
+
+# @ visitpress
+#: functions/fe/social-widget.php:173
+msgid "Flickr:"
+msgstr "Flickr:"
+
+# @ visitpress
+#: functions/fe/social-widget.php:177
+msgid "Insert the full URL of your Flickr profile."
+msgstr "Vložte celou URL adresu Vašeho Flickr profilu."
+
+# @ visitpress
+#: functions/fe/twitter-widget.php:13
+msgid "Twitter widget by visitpress"
+msgstr "Twitter widget pro VisitPress"
+
+# @ visitpress
+#: functions/fe/twitter-widget.php:15
+msgid "VisitPress Twitter Widget"
+msgstr "VisitPress Twitter Widget"
+
+# @ visitpress
+#: functions/fe/twitter-widget.php:25
+msgid "Join us on Twitter"
+msgstr "Připojte se k nám na Twitteru"
+
+# @ visitpress
+#: functions/fe/twitter-widget.php:46
+msgid "Twitter Username:"
+msgstr "Twitter uživatelské jméno:"
+
+# @ visitpress
+#: functions/fe/twitter-widget.php:50
+msgid "Insert your Twitter username. (ex: visitpress)."
+msgstr "Vložte Vaše uživatelské jméno na síti Twitter. (příklad: visitpress)."
+
+# @ visitpress
+#: content.php:10
+msgid "Author"
+msgstr "Autor"
+
+# @ visitpress
+#: content.php:10
+msgid "Category"
+msgstr "Rubrika"
+
+# @ visitpress
+#: search.php:17
+msgid "Number of Results: "
+msgstr "Počet výsledků: "
+
+# @ visitpress
+#: content.php:10
+msgid " | <strong>Tags</strong>: "
+msgstr " | <strong>Štítky</strong>: "
+
+# @ visitpress
+#: functions.php:254 content.php:16
+msgid "Continue reading"
+msgstr "Pokračovat ve čtení"
+
+# @ visitpress
+#: comments.php:43
+msgid "Leave a Comment"
+msgstr "Napsat komentář"
+
+# @ visitpress
+#: comments.php:19
+msgid "Comment (1)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] "Komentář (1)"
+msgstr[1] "Komentáře (%1$s)"
+msgstr[2] "Komentáře (%1$s)"
+
+# @ visitpress
+#: comments.php:42
+msgid "Your name"
+msgstr "Vaše jméno"
+
+# @ visitpress
+#: comments.php:43
+msgid "Website"
+msgstr "Web"
+
+# @ visitpress
+#: comments.php:44
+msgid "Comment..."
+msgstr "Komentář..."
+
+# @ visitpress
+#: searchform.php:10
+msgid "Search..."
+msgstr "Hledat..."
+
+# @ visitpress
+#: sidebar.php:12
+msgid "Sidebar navigation"
+msgstr "Postranní navigace"

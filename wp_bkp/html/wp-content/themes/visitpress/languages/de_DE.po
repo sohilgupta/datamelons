@@ -1,0 +1,736 @@
+# Translation of the WordPress theme VisitPress 1.0 by Tomas Toman.
+# This file is distributed under the same license as the VisitPress package.
+# Tomas Toman <support@tomastoman.cz>, 2013.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VisitPress 1.0\n"
+"POT-Creation-Date: 2013-08-30 11:27+0100\n"
+"PO-Revision-Date: 2013-10-01 15:53+0100\n"
+"Last-Translator: \n"
+"Language-Team: Tomas Toman\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n"
+"+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: Deutsch\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:16 search.php:29
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: 404.php:17
+msgid ""
+"Apologies, but no results were found for your request. Perhaps searching "
+"will help you to find a related content."
+msgstr ""
+"Entschuldigen Sie bitte, aber keine Ergebnisse wurden für Ihre Anfrage "
+"gefunden. Vielleicht suchen helfen Sie zu finden verwandten Inhalten."
+
+#: archive.php:18
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Tägliches Archiv: %s"
+
+#: archive.php:20
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Monatliches Archiv: %s"
+
+#: archive.php:22
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Jährliche Archiv: %s"
+
+#: archive.php:24
+msgid "Archives"
+msgstr "Archiv"
+
+#: author.php:18
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archiv des Autor: %s"
+
+#: author.php:28
+#, php-format
+msgid "About %s"
+msgstr "Über %s"
+
+#: class-tgm-plugin-activation.php:155 functions.php:310
+msgid "Install Required Plugins"
+msgstr "Installieren Sie die erforderlichen Plugins"
+
+#: class-tgm-plugin-activation.php:156 functions.php:311
+msgid "Install Plugins"
+msgstr "Installieren Plugins"
+
+#: class-tgm-plugin-activation.php:157 functions.php:315
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installieren Plugin: %s"
+
+#: class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr "Irgendetwas ist schiefgegangen."
+
+#: class-tgm-plugin-activation.php:169 functions.php:321
+msgid "Return to Required Plugins Installer"
+msgstr "Zurück zur Erforderliche Plugins Installer"
+
+#: class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: class-tgm-plugin-activation.php:171 class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr "Plugin erfolgreich aktiviert."
+
+#: class-tgm-plugin-activation.php:172
+msgid "The following plugin was activated successfully:"
+msgstr "Das folgende Plugin wurde erfolgreich aktiviert:"
+
+#: class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle Plugins installiert und erfolgreich aktiviert. %1$s"
+
+#: class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr "Entlassen diese Mitteilung"
+
+#: class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr "Externer Link"
+
+#: class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr "Privat Projektarchiv"
+
+#: class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr "Abgepackten"
+
+#: class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr "WordPress Projektarchiv"
+
+#: class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr "Erforderlich"
+
+#: class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+#: class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr "Installiert, aber nicht aktiviert"
+
+#: class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Keine Plugins zu installieren oder zu aktivieren. <a href=\"%1$s\" title="
+"\"Zurück zum Dashboard\">Zurück zum Dashboard</a>"
+
+#: class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr "Plugin"
+
+#: class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr "Quelle"
+
+#: class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr "Typ"
+
+#: class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr "Status"
+
+#: class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr "Installieren"
+
+#: class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr "Installationspaket ist nicht verfügbar."
+
+#: class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Download Installationspaket aus <span class=\"code\">%s</span>&#8230;"
+
+#: class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr "Auspacken des Pakets&#8230;"
+
+#: class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr "Installation des Plugin&#8230;"
+
+#: class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr "Plugin-Installation ist fehlgeschlagen."
+
+#: class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr "Plugin erfolgreich installiert."
+
+#: class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr "Plugin Aktivierung fehlgeschlagen."
+
+#: class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Die Installation und Aktivierung beginnt. Dieser Vorgang kann eine Weile auf "
+"einigen Hosts dauern, bitte haben sie Geduld."
+
+#: class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s erfolgreich installiert und aktiviert."
+
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr "Zeige Details"
+
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr "Details ausblenden"
+
+#: class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr "Alle Installationen und Aktivierungen abgeschlossen sind."
+
+#: class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation und Aktivierung Plugin %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Der Installationsvorgang wird gestartet. Dieser Vorgang kann eine Weile auf "
+"einigen Hosts dauern, bitte haben sie Geduld."
+
+#: class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Ein Fehler ist aufgetreten während der Installation %1$s: <strong>%2$s</"
+"strong>."
+
+#: class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Die Installation von %1$s fehlgeschlagen."
+
+#: class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s erfolgreich installiert."
+
+#: class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr "Alle Installationen sind abgeschlossen."
+
+#: class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installieren Plugin %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: comments.php:30
+msgid "Comment navigation"
+msgstr "Kommentare Navigation"
+
+#: comments.php:31
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:32
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: comments.php:37
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: functions.php:85
+msgid "Header Menu"
+msgstr "Kopfzeile Menü"
+
+#: functions.php:86
+msgid "Sidebar Menu"
+msgstr "Sidebar Menü"
+
+#: functions.php:98
+msgid "Main Sidebar"
+msgstr "Haupt Sidebar"
+
+#: functions.php:100
+msgid "Right sidebar which appears on posts and pages."
+msgstr "Rechten Sidebar, auf Beiträge und Seiten angezeigt."
+
+#: functions.php:107
+msgid "Footer left widget"
+msgstr "Footer Linken Widget"
+
+#: functions.php:109
+msgid ""
+"Left widget from the footer widget area. Please insert only one widget to "
+"this area."
+msgstr ""
+"Linken Widget aus Footer Widget Bereich. Bitte geben Sie nur ein Widget zu "
+"diesem Bereich."
+
+#: functions.php:116
+msgid "Footer middle widget"
+msgstr "Footer Mitten Widget"
+
+#: functions.php:118
+msgid ""
+"Middle widget from the footer widget area. Please insert only one widget to "
+"this area."
+msgstr ""
+"Mitten Widget aus Footer Widget Bereich. Bitte geben Sie nur ein Widget zu "
+"diesem Bereich."
+
+#: functions.php:125
+msgid "Footer right widget"
+msgstr "Footer Rechten Widget"
+
+#: functions.php:127
+msgid ""
+"Right widget from the footer widget area. Please insert only one widget to "
+"this area."
+msgstr ""
+"Rechten Widget aus Footer Widget Bereich. Bitte geben Sie nur ein Widget zu "
+"diesem Bereich."
+
+#: functions.php:134
+msgid "Footer notices"
+msgstr "Footer Bekanntmachungen"
+
+#: functions.php:136
+msgid "The line for copyright and other notices below the footer widget area."
+msgstr ""
+"Die Linie des Urheberrechts und andere Mitteilungen unter Footer Widget "
+"Bereich."
+
+#: functions.php:143
+msgid "Home page slideshow"
+msgstr "Startseite Slideshow"
+
+#: functions.php:145
+msgid ""
+"The area for Cyclone Slider Widget which displays a slideshow on your home "
+"page."
+msgstr ""
+"Der Bereich für Cyclone Slider Widget, das eine Slideshow zeigt auf Ihrer "
+"Startseite."
+
+#: functions.php:152
+msgid "Header icons"
+msgstr "Header Ikonen"
+
+#: functions.php:154
+msgid ""
+"Insert here the VisitPress Header Bar Widget. Then fill your home/contact/"
+"sitemap URLs. The links will display as icons in header."
+msgstr ""
+"Geben Sie hier die VisitPress Header Bar Widget. Dann füllen Sie Ihre Home/"
+"Kontakt/Sitemap URL. Die Links werden als Symbole in Header anzuzeigen."
+
+#: functions.php:173 functions.php:187
+msgid "Post navigation"
+msgstr "Beiträge Navigation"
+
+#: functions.php:174
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Beiträge"
+
+#: functions.php:175
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Beiträge <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:188
+msgid "&larr; Previous post"
+msgstr "&larr; Vorherige Beitrag"
+
+#: functions.php:189
+msgid "Next post &rarr;"
+msgstr "Nächster Beitrag &rarr;"
+
+#: functions.php:205
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:205
+msgid "(Edit)"
+msgstr "(Edieren)"
+
+#: functions.php:218
+msgid "(Post author)"
+msgstr "(Beitrag Autor)"
+
+#: functions.php:224
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: functions.php:230
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wartet auf Moderation."
+
+#: functions.php:235
+msgid "Edit"
+msgstr "Edieren"
+
+#: functions.php:239
+msgid "Reply"
+msgstr "Antworten"
+
+#: functions.php:312
+#, php-format
+msgid ""
+"The %1$s plugin is required for this theme. Click on the big blue button "
+"below to install and activate %1$s."
+msgstr ""
+"%1$s Plugin ist für dieses Theme erforderlich. Klicken Sie auf den großen "
+"blauen Button unten zu installieren und zu aktivieren %1$s."
+
+#: functions.php:313
+#, php-format
+msgid ""
+"The %1$s is installed but currently inactive. Please go to the <a href=\"%2$s"
+"\">plugin administration page</a> page to activate it."
+msgstr ""
+"Die %1$s ist installiert, aber derzeit inaktiv. Bitte gehen Sie zur <a href="
+"\"%2$s\"> Plugin Administrations-Seite </a>, um es zu aktivieren."
+
+#: functions.php:314
+#, php-format
+msgid "Install %s Now"
+msgstr "%s jetzt installieren"
+
+#: functions.php:316
+msgid "Something went wrong with the plugin API."
+msgstr "Etwas ging mit dem Plugin API falsch."
+
+#: functions.php:317
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. <a href=\"%2$s\"><strong>Click here to "
+"begin the installation process</strong></a>. You may be asked for FTP "
+"credentials based on your server setup."
+msgstr ""
+"Dieses Theme bedarf der %1$s Plugin. <a href=\"%2$s\"><strong> Klicken Sie "
+"hier, um die Installation zu beginnen</strong></a>. Sie können für FTP-"
+"Zugangsdaten auf Ihrem Server Setup basierend gefragt."
+
+#: functions.php:318
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"Es tut uns leid, aber Sie haben nicht die richtigen Berechtigungen für %s "
+"Plugin installieren. Kontaktieren Sie den Administrator dieser Seite, um "
+"Hilfe zu bekommen das Plugin installiert."
+
+#: functions.php:319
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. That plugin is currently inactive, so "
+"please go to the <a href=\"%2$s\">plugin administration page</a> to activate "
+"it."
+msgstr ""
+"Dieses Theme bedarf der %1$s Plugin. Das Plugin ist derzeit inaktiv, so "
+"gehen Sie bitte zum <a href=\"%2$s\">Plugin Administrations-Seite</a>, um es "
+"zu aktivieren."
+
+#: functions.php:320
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"Es tut uns leid, aber Sie haben nicht die richtigen Berechtigungen für %s "
+"Plugin aktivieren. Kontaktieren Sie den Administrator dieser Seite, um Hilfe "
+"zu bekommen das Plugin aktiviert."
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: search.php:30
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Es tut uns leid, aber nichts Ihren Suchkriterien entsprechen. Bitte "
+"versuchen Sie es erneut mit einigen anderen Suchbegriffen."
+
+#: search.php:34
+msgid "Search results navigation"
+msgstr "Suchergebnisse Navigation"
+
+#: search.php:35
+msgid "<span class=\"meta-nav\">&larr;</span> Previous results"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vorherige Ergebnisse"
+
+#: search.php:36
+msgid "Next results <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nächste Ergebnisse <span class=\"meta-nav\">&rarr;</span>"
+
+#: tag.php:16
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Schlagwort Archiv: %s"
+
+#: functions/be/fw-options.php:1856
+msgid "settings reset."
+msgstr "Einstellungen zurückzusetzen."
+
+#: functions/be/fw-setup.php:16
+msgid "Theme Options"
+msgstr "Theme Optionen"
+
+#: functions/fe/header-bar-widget.php:12
+msgid "Displays the home/contact/sitemap links in header."
+msgstr "Zeigt die Home/Kontakt/Sitemap Links in Header."
+
+#: functions/fe/header-bar-widget.php:14
+msgid "VisitPress Header Bar Widget"
+msgstr "VisitPress Header Bar Widget"
+
+#: functions/fe/header-bar-widget.php:41
+msgid "Home page URL:"
+msgstr "Startseite URL:"
+
+#: functions/fe/header-bar-widget.php:45
+msgid "Insert the URL of your Home page (example: http://www.yourdomain.com)."
+msgstr ""
+"Legen Sie die URL Ihrer Homepage (Beispiel: http://www.yourdomain.com)."
+
+#: functions/fe/header-bar-widget.php:51
+msgid "Contact page/e-mail:"
+msgstr "Kontakt Seite/E-mail:"
+
+#: functions/fe/header-bar-widget.php:55
+msgid ""
+"Insert the full URL of your Contact page or contact e-mail address If you "
+"want to insert an e-mail, please add the prefix \"mailto:\" (example: mailto:"
+"info@yourdomain.com)."
+msgstr ""
+"Legen Sie die vollständige URL Ihrer Kontakt Seite oder Kontakt-E-Mail "
+"Adresse. Wenn Sie eine E-Mail einfügen möchten, fügen Sie bitte das Präfix "
+"\"mailto:\" (Beispiel: mailto:info@yourdomain.com)."
+
+#: functions/fe/header-bar-widget.php:61
+msgid "Sitemap URL:"
+msgstr "Sitemap URL:"
+
+#: functions/fe/header-bar-widget.php:65
+msgid ""
+"Insert the full URL of your Sitemap page (example: http://www.yourdomain.com/"
+"sitemap)."
+msgstr ""
+"Legen Sie die vollständige URL Ihrer Sitemap Seite (Beispiel: http://www."
+"yourdomain.com/sitemap)."
+
+#: functions/fe/library.php:46 functions/fe/library.php:56
+msgid "<strong>Posted</strong>: "
+msgstr "<strong>Veröffentlicht</strong>: "
+
+#: functions/fe/library.php:66
+msgid "<strong>Category</strong>: "
+msgstr "<strong>Kategorie</strong>: "
+
+#: functions/fe/library.php:74 functions/fe/library.php:80
+msgid "<strong>Author</strong>: "
+msgstr "<strong>Autor</strong>: "
+
+#: functions/fe/social-widget.php:12
+msgid "A Social widget by visitpress"
+msgstr "Ein Social-Widget von visitpress"
+
+#: functions/fe/social-widget.php:14
+msgid "VisitPress Social Widget"
+msgstr "VisitPress Social Widget"
+
+#: functions/fe/social-widget.php:86 functions/fe/twitter-widget.php:39
+msgid "Title:"
+msgstr "Titel:"
+
+#: functions/fe/social-widget.php:93
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: functions/fe/social-widget.php:97
+msgid "Insert the full URL of your Twitter profile."
+msgstr "Legen Sie die vollständige URL Ihrem Twitter-Profil."
+
+#: functions/fe/social-widget.php:103
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: functions/fe/social-widget.php:107
+msgid "Insert the full URL of your Facebook profile, page or group."
+msgstr ""
+"Legen Sie die vollständige URL Ihrem Facebook-Profil, Seite oder Gruppe."
+
+#: functions/fe/social-widget.php:113
+msgid "RSS:"
+msgstr "RSS:"
+
+#: functions/fe/social-widget.php:117
+msgid "Insert the Url of your RSS. You may include your RSS from Feedburner."
+msgstr "Legen Sie die URL Ihres RSS. Sie können Ihren RSS Feedburner aus."
+
+#: functions/fe/social-widget.php:123
+msgid "Google Plus:"
+msgstr "Google Plus:"
+
+#: functions/fe/social-widget.php:127
+msgid "Insert the full URL of your Google Plus profile"
+msgstr "Legen Sie die vollständige URL Ihrem Google Plus-Profil."
+
+#: functions/fe/social-widget.php:133
+msgid "You Tube:"
+msgstr "You Tube:"
+
+#: functions/fe/social-widget.php:137
+msgid "Insert the full URL of your YouTube profile."
+msgstr "Legen Sie die vollständige URL Ihrem YouTube-Profil."
+
+#: functions/fe/social-widget.php:143
+msgid "Linkedin:"
+msgstr "Linkedin:"
+
+#: functions/fe/social-widget.php:147
+msgid "Insert the full URL of your Linkedin profile."
+msgstr "Legen Sie die vollständige URL Ihrem Linkedin-Profil."
+
+#: functions/fe/social-widget.php:153
+msgid "Delicious:"
+msgstr "Delicious:"
+
+#: functions/fe/social-widget.php:157
+msgid "Insert the full URL of your Delicious profile."
+msgstr "Legen Sie die vollständige URL Ihrem Delicious-Profil."
+
+#: functions/fe/social-widget.php:163
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+#: functions/fe/social-widget.php:167
+msgid "Insert the full URL of your Pinterest profile."
+msgstr "Legen Sie die vollständige URL Ihrem Pinterest-Profil."
+
+#: functions/fe/social-widget.php:173
+msgid "Flickr:"
+msgstr "Flickr:"
+
+#: functions/fe/social-widget.php:177
+msgid "Insert the full URL of your Flickr profile."
+msgstr "Legen Sie die vollständige URL Ihrem Flickr-Profil."
+
+#: functions/fe/twitter-widget.php:13
+msgid "Twitter widget by visitpress"
+msgstr "Twitter-Widget von visitpress"
+
+#: functions/fe/twitter-widget.php:15
+msgid "VisitPress Twitter Widget"
+msgstr "VisitPress Twitter Widget"
+
+#: functions/fe/twitter-widget.php:25
+msgid "Join us on Twitter"
+msgstr "Begleiten Sie uns auf Twitter"
+
+#: functions/fe/twitter-widget.php:46
+msgid "Twitter Username:"
+msgstr "Twitter Benutzername:"
+
+#: functions/fe/twitter-widget.php:50
+msgid "Insert your Twitter username. (ex: visitpress)."
+msgstr "Legen Sie Ihre Twitter-Benutzernamen ein. (Beispiel: visitpress)."
+
+#: content.php:10
+msgid "Author"
+msgstr "Autor"
+
+#: content.php:10
+msgid "Category"
+msgstr "Kategorie"
+
+#: search.php:17
+msgid "Number of Results: "
+msgstr "Anzahl der Ergebnisse: "
+
+#: content.php:10
+msgid " | <strong>Tags</strong>: "
+msgstr " | <strong>Schlagworte</strong>: "
+
+#: functions.php:254 content.php:16
+msgid "Continue reading"
+msgstr "Lesen Sie weiter"
+
+#: comments.php:43
+msgid "Leave a Comment"
+msgstr "Schreibe einen Kommentar"
+
+#: comments.php:19
+msgid "Comment (1)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] "Kommentar (1)"
+msgstr[1] "Kommentare (%1$s)"
+msgstr[2] "Kommentare (%1$s)"
+
+#: comments.php:42
+msgid "Your name"
+msgstr "Ihr Name"
+
+#: comments.php:43
+msgid "Website"
+msgstr "Webseite"
+
+#: comments.php:44
+msgid "Comment..."
+msgstr "Kommentar..."
+
+#: searchform.php:10
+msgid "Search..."
+msgstr "Suchen..."
+
+#: sidebar.php:12
+msgid "Sidebar navigation"
+msgstr "Sidebar Navigation"

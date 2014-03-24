@@ -1,0 +1,344 @@
+
+/* Backgrounds
+================================================== */
+.portfolio-control a, body.under-construction header, .slider-1 .flex-direction-nav li a, .flex-control-nav li a, .slider-2 .flex-direction-nav li a, header .main-header, header .down-header, html.ie.ie8 body.under-construction .content .block, #wrap.boxed {
+	background:#fff;
+}
+
+body.under-construction .content .block, body.under-construction .content input.subscribe-text {
+	background-color: rgba(255, 255, 255, 0.9); /* this #fff color */
+}
+
+.top-bar, .services.style-1 .item .circle, .services.style-1 .item.active:hover .circle, .responsive > ul, .accordion h4, .accordion.style2 .icon-plus, .accordion.style2 .icon-minus, .button.black, .button.color:hover, #horizontal-tabs.style2 ul.tabs li, #vertical-tabs.style2 ul.tabs li, #toggle-view li h4.black, .services.style-2 .item.active .circle, .services.style-2 .item:hover .circle, .services.style-3 .item .circle, .services.style-3 .item.active:hover .circle, #options li a:hover, #options li a.selected, .portfolio-control a:hover, .flex-direction-nav li a, .share-social a, .widget .followers li a {
+	 background:#4b4c4d;
+}
+
+body.under-construction .content, .slider-1.iphone li {
+	 background-color:#4b4c4d;
+}
+
+.navigation ul li ul li a {
+	 background:#4b4c4d !important;
+}
+
+.navigation ul li a:hover, .navigation ul li a.selected, .navigation ul li.active a, .accordion p, #horizontal-tabs ul.tabs li, #vertical-tabs ul.tabs li, #horizontal-tabs.style2 .contents, #vertical-tabs.style2 .contents, #toggle-view .panel, #toggle-view li h4.normal, blockquote, .info-box, .pagination a, .breadcrumbs.gray, table.style th, .qoute, .welcome, .page-404, .tables-column, #options li a, .post-meta .meta, 
+.sidebar .widget .text-search, header .widget .text-search, .sidebar .popular-tags a, .widget .followers, .blog-3 .item .contain, .post-tags, .about-author .content, .notification_error {
+	background:#f9f9f9;
+}
+
+.services.home, .testimonial-item p, .one-page .home-bg, .one-page.home-bg {
+	background:#f6f6f6;
+}
+
+.comments .comment-box.author, .form-box input.text, .form-box textarea {
+	background:#FAFAFA;
+}
+
+.slidecontrols li a.carousel1-next, .slidecontrols li a.carousel1-prev, .slidecontrols li a.carousel2-next, .slidecontrols li a.carousel2-prev, .slidecontrols li a.carousel3-next, .slidecontrols li a.carousel3-prev, .slidecontrols li a.carousel4-next, .slidecontrols li a.carousel4-prev, .more {
+	background:#5a5c5d;
+}
+
+.slidecontrols li a.carousel1-next.carousel1-disabled, .slidecontrols li a.carousel1-prev.carousel1-disabled, .slidecontrols li a.carousel2-next.carousel2-disabled, .slidecontrols li a.carousel2-prev.carousel2-disabled, .slidecontrols li a.carousel3-next.carousel3-disabled, .slidecontrols li a.carousel3-prev.carousel3-disabled, .slidecontrols li a.carousel4-next.carousel4-disabled, .slidecontrols li a.carousel4-prev.carousel4-disabled, #toTop, .down-button {
+	background:#edefef;
+}
+
+.footer-top, .social-color, .icons-color, body.under-construction .content input.subscribe-button:hover {
+	background:#404041;
+}
+
+.footer-down {
+	background:#383838;
+}
+
+.subscribe input.mail, .subscribe input.submit:hover {
+	background:#454546;
+}
+
+.navigation ul li ul li a:hover, .navigation ul > li > ul > li.active > a{
+	 background:#414141 !important;
+}
+
+.responsive > ul > li.active > a, .responsive > ul > li > a:hover, 
+.responsive > ul > li.active > ul > li.active > a, .responsive > ul > li > ul > li > a:hover, 
+.responsive > ul > li.active > ul > li.active > ul > li.active > a, .responsive > ul > li > ul > li > ul > li > a:hover,
+.responsive > ul > li.active > ul > li.active > ul > li.active > ul > li.active > a, .responsive > ul > li > ul > li > ul > li > ul > li > a:hover, .responsive > ul > li.active > ul > li.active > ul > li.active > ul > li.active > ul > li.active a, .responsive > ul > li > ul > li > ul > li > ul > li > ul > li > a:hover
+{
+	background:#414141;
+}
+
+.meter, .button.normal {
+	background:#f1f1f1;
+}
+
+.highlight-black, .dropcap.black, .pagination a.next-button, .pagination a.prev-button, .tables-column .header h3, .tables-column .footer h4 a, .tables-column.color .footer h4 a:hover, footer .popular-tags a {
+	background:#474747;
+}
+
+.team .item .member-social a{
+	background:#9f9f9f;
+}
+
+.tables-column .header .price {
+	background:#ebebeb;
+}
+
+/* google map bg */
+#map {
+	background:#e5e3df;
+}
+
+/* Colors 
+================================================== */
+.services.style-1 .item .circle, .services.style-1 .item .circle a, .img-caption .desc, .slidecontrols li a.carousel1-next, .slidecontrols li a.carousel1-prev, .slidecontrols li a.carousel2-next, .slidecontrols li a.carousel2-prev, .slidecontrols li a.carousel3-next, .slidecontrols li a.carousel3-prev, .slidecontrols li a.carousel4-next, .slidecontrols li a.carousel4-prev, .more, .more:hover, footer h3.title, .tweet.footer .tweet_list li a, .subscribe input.submit, footer a, .page-title, .accordion h4, .accordion h4 a, .accordion.style2 .icon-plus, .accordion.style2 .icon-minus, .meter, .button, .button:hover, #horizontal-tabs.style2 ul.tabs li, #vertical-tabs.style2 ul.tabs li, #toggle-view li h4, #toggle-view li span, .highlight-color, .highlight-black, .dropcap, .pagination a.next-button, .pagination a.prev-button, .pagination a:hover, .pagination a.current, .pagination a.current-menu-item, table.style.color th, .form-elements input[type='submit'], .services.style-2 .item .circle, .services.style-2 .item .circle a, .services.style-2 .item .circle a:hover, .services.style-3 .item .circle, .services.style-3 .item .circle a, .services.style-3 .item .circle a:hover, .tables-column .header h3, .tables-column .footer h4 a, .tables-column .footer h4 a:hover, #options li a:hover, #options li a.selected, .portfolio-control a:hover, .flex-direction-nav li a, .flex-direction-nav li a:hover, .popular-tags a:hover, i.white, .icons-color, header .social a:hover, footer .social a:hover, .member-social a, .member-social a:hover, body.under-construction .content, body.under-construction .content input.subscribe-button, body.under-construction footer a, body.under-construction footer span.copyright, .slider-1 .slides li, .slider-2 .slides li, header.style-4 .top-bar a:hover, footer .widget.most-posts ul.posts li a, .slider-1 .slides li .links a:hover, .notification_ok {
+	color:#fff;
+}
+
+.dropcap {
+	color:#fff !important;
+}
+
+.navigation ul li ul li a, .responsive ul a {
+	color:#f9f9f9;
+}
+
+.phone-mail a:hover {
+	color:#f1f1f1;
+}
+
+.top-bar, .top-bar a, header .social a, footer .social a{
+	color:#d7d7d7;
+}
+
+.navigation ul li a, h3.title, .latest-blog .item h3 a, .accordion.style2 h4, .accordion.style2 h4 a, .slider-1:hover .flex-direction-nav li a, .slider-2:hover .flex-direction-nav li a {
+	 color:#4b4c4d;
+}
+
+body, a, .services.style-1 .item h3, .services.style-1 .item p, .services.style-1 .item a, .slidecontrols li a.carousel1-next.carousel1-disabled, .slidecontrols li a.carousel1-prev.carousel1-disabled, .slidecontrols li a.carousel2-next.carousel2-disabled, .slidecontrols li a.carousel2-prev.carousel2-disabled, .slidecontrols li a.carousel3-next.carousel3-disabled, .slidecontrols li a.carousel3-prev.carousel3-disabled, .slidecontrols li a.carousel4-next.carousel4-disabled, .slidecontrols li a.carousel4-prev.carousel4-disabled, #toTop, .down-button, .accordion p, .progress-bar h5, .button.normal, #toggle-view li h4.normal, #toggle-view li span.normal, .services.style-2 .item h4, .services.style-3 .item h4, .portfolio-control a, .sidebar .widget .text-search, header .widget .text-search, .widget.most-posts ul.posts li a, .post-tags a:hover {
+	color:#5a5c5d;
+}
+
+.latest-blog .item .meta, .blog-3 .item .post-meta, .blog-3 .item .post-meta a, .blog-3 .item .post-meta i, .related-posts .item .meta {
+	color:#929292;
+}
+
+.latest-blog .item p{
+	color:#6b6b6b;
+}
+
+footer, .tweet.footer {
+	color:#e1e1e1;
+}
+
+.subscribe input.mail {
+	color:#c2c2c2;
+}
+
+span.copyright {
+	color:#eaeaea;
+}
+
+#horizontal-tabs ul.tabs li, #vertical-tabs ul.tabs li {
+	color:#868686;
+}
+
+blockquote {
+	color:#888888;
+}
+
+p a:hover, .breadcrumbs a:hover {
+	color:#292929;
+}
+
+.pagination a, .pagination, .breadcrumbs, .breadcrumbs i.icon-home, .form-elements input, .form-elements textarea, .form-elements select, .qoute p {
+	color:#757575;
+}
+
+.team .item p{
+	color:#5c5d5e;
+}
+
+.page-404 .oops, .page-404 i.icon-fire {
+    color: #E2E2E2;
+}
+
+.page-404 .text, .page-404 i.icon-coffee {
+	color:#616161;
+}
+
+.tables-column .header .price h2 {
+	color:#4D4D4D;
+}
+
+.post-meta .meta i {
+	color:#6e6e6e;
+}
+
+.form-box label, .form-box input.text, .form-box textarea {
+	color:#7C7C7C;
+}
+
+body.under-construction .content .block, body.under-construction .content input.subscribe-text {
+	color:#303030;
+}
+
+header.style-4 .top-bar a {
+	color:#eee;
+}
+
+/* borders
+================================================== */
+.about-author .avatar img {
+	/*border:4px solid #fff;*/
+}
+
+#horizontal-tabs ul.tabs li.current {
+	border-bottom:1px solid #fff;
+}
+
+#vertical-tabs ul.tabs li.current {
+	border-right:1px solid #fff;
+}
+
+.navigation ul li a {
+	border-top:4px solid transparent;
+}
+
+header.style-3 .navigation ul li a {
+	border-top:1px solid transparent;
+}
+
+.navigation ul li ul li a, .responsive ul li a, .navigation ul li ul li a:hover, .navigation ul li ul li.active a {
+	border-bottom:1px solid #666667;
+}
+
+hr.line{
+	border:solid #e6e6e6; border-width: 1px 0 0; clear: both;height: 0;
+}
+
+header.style-3 .down-header {
+	border-top:1px solid #e6e6e6;
+}
+
+.notification_error {
+	border:1px solid #e6e6e6;
+}
+
+#footer.thumbs li img { 
+    border: 2px solid #393939;
+} 
+
+#menu > a:before, #menu > a:after, .one-page .team .item img {
+	border: 2px solid #fff;
+}
+
+.accordion.style2 h4, .accordion.style2 p, #vertical-tabs ul.tabs li, .post.style-1, .post.style-2, .sidebar .categories ul li, .comments .comment-box .comment {
+	border-bottom:1px solid #f0f0f0;
+}
+
+hr {
+	border: solid #f0f0f0;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: -1px 0 0 0;
+	height: 0;
+}
+
+#horizontal-tabs ul.tabs li, #vertical-tabs ul.tabs li {
+	border-right:1px solid #f0f0f0;
+}
+
+#horizontal-tabs ul.tabs {
+	border-left:1px solid #f0f0f0;
+}
+
+#horizontal-tabs .contents, #vertical-tabs .contents, .breadcrumbs, table.style th, table.style td, .form-elements input[type="text"], .form-elements select, .form-elements textarea, #toggle-view li h4.normal.border, .form-box input.text, .form-box textarea {
+	border:1px solid #f0f0f0;
+}
+
+#horizontal-tabs ul.tabs li {
+    border-top:2px solid #4b4c4d; 
+}
+
+#vertical-tabs ul.tabs li {
+    border-left:2px solid #4b4c4d; 
+}
+
+#vertical-tabs ul.tabs {
+	border-top:1px solid #f0f0f0;
+}
+
+blockquote {
+	border-left:2px solid #888888;
+}
+
+.tables-column .list li, html.ie.ie8 header.fixed .sticky-wrapper.is-sticky .main-header, html.ie.ie8 header.fixed .sticky-wrapper.is-sticky .down-header {
+	border-bottom:1px solid #ebebeb;
+}
+
+.blog-3 .item .post-content {
+	border-top:1px solid #e9e9e9;
+}
+
+header.style-4 .navigation ul li a:hover, header.style-4 .navigation ul li a.selected, header.style-4 .navigation ul li.active a {
+	border-top:4px solid #4b4c4d; 
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+#vertical-tabs ul.tabs li.current {
+	border-right: 1px solid #F0F0F0 !important;
+}
+
+#vertical-tabs ul.tabs li {
+	border-top: 1px solid #F0F0F0 !important;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#vertical-tabs ul.tabs li.current {
+	border-right: 1px solid #F0F0F0 !important;
+}
+
+#vertical-tabs ul.tabs li {
+	border-top: 1px solid #F0F0F0 !important;
+}
+
+body.under-construction .content input.subscribe-button {
+	background:#404041 !important;
+}
+}
+
+@media only screen and (max-width: 479px) {
+#vertical-tabs ul.tabs li.current {
+	border-right: 1px solid #F0F0F0 !important;
+}
+
+#vertical-tabs ul.tabs li {
+	border-top: 1px solid #F0F0F0 !important;
+}	
+
+#horizontal-tabs ul.tabs li.current {
+	border-bottom: 1px solid #F0F0F0;
+}
+
+body.under-construction .content input.subscribe-button {
+	background:#404041 !important;
+}
+}
+
+/* Wordpress Comment */
+#submit_btn{
+	background:#434445;
+	color:#FFFFFF;
+	border:none;
+	padding:15px;
+	padding-left:20px;
+	padding-right:20px;
+	font-weight:bold;
+	font-size:18px;
+	cursor:pointer
+	}
+	
+#submit_btn:hover{
+	background:#666666;
+	}

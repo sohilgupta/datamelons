@@ -1,0 +1,8 @@
+0000.001 (0) Opened log file at time: Thu, 20 Mar 2014 17:10:50 +0000 on http://datamelons.com
+0000.004 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.8.12 WP: 3.8.1 PHP: 5.4.16 (Linux p3nlwpweb006.shr.prod.phx3.secureserver.net 2.6.32-458.23.2.lve1.2.45.el6.x86_64 #1 SMP Fri Nov 22 08:02:49 EST 2013 x86_64) MySQL: 5.5.33-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 28M | 28.3M) multisite: N mcrypt: Y ZipArchive::addFile: Y W3TC/ObjectCache: N
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 14174492.4 Mb
+0000.011 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.013 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 
+0000.019 (0) An email has been scheduled for this job, because we are in debug mode
+0000.021 (0) No email will be sent - this backup set was empty.
+0000.022 (0) The backup apparently succeeded and is now complete

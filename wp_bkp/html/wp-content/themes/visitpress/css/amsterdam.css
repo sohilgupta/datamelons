@@ -1,0 +1,67 @@
+/* Color scheme Amsterdam
+----------------------------------------------- */
+html body {
+  background-color: #d12707;     
+}
+#header .site-description,
+#wrapper-footer #footer .footer-widget-headline,
+.publish-date .publish-year {
+  color: #ffd36a;                          
+}
+#header #menu a:hover,
+#header #menu :hover > a {
+  color: #f3a293;
+  border-bottom: 1px solid #ffd36a;                      
+}
+#header #menu ul ul {
+  border-top: 1px solid #ffd36a;                    
+}
+#header #menu ul ul a:hover,
+#header #menu ul ul :hover > a {
+  color: black;
+  background: #bbbbbb;
+  border-bottom: none;
+}
+#wrapper-header #header #menu .current-menu-item > a,
+#wrapper-header #header #menu .current-menu-ancestor > a,
+#wrapper-header #header #menu .current_page_item > a,
+#wrapper-header #header #menu .current-page-ancestor > a {
+  color: #f3a293;
+  border-bottom: 1px solid #ffd36a;
+}
+#content .post-entry h2 a {
+  color: #a57a12;                           
+}
+#content .post-entry .publish-date {
+  background: #d12707;                                   
+}
+.widget-area #sidebar-navigation .sidebar-headline,
+.widget-area .sidebar-widget .sidebar-headline,
+body a {
+  color: #d12707;                            
+}
+#wrapper-footer #footer a {
+  color: #f3a293;                          
+}
+#header .search-box-outer,
+#sidebar .scroll-top-inner {
+  background: #ebb534;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ebb534), color-stop(1em, #fec438), to(#ffde91));
+  background: -webkit-linear-gradient(#ebb534, #fec438 1em, #ffde91);
+  background: -moz-linear-gradient(top, #ebb534, #fec438 1em, #ffde91);
+  background: -ms-linear-gradient(#ebb534, #fec438 1em, #ffde91);
+  background: -o-linear-gradient(#ebb534, #fec438 1em, #ffde91);
+  background: linear-gradient(#ebb534, #fec438 1em, #ffde91); 
+  -pie-background: linear-gradient(#ebb534, #fec438 1em, #ffde91);                 
+}
+#header .search-box-inner,
+#sidebar .scroll-top-outer {
+  background: #ffde91;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffde91), color-stop(1em, #fec438), to(#ebb534));
+  background: -webkit-linear-gradient(#ffde91, #fec438 1em, #ebb534);
+  background: -moz-linear-gradient(top, #ffde91, #fec438 1em, #ebb534);
+  background: -ms-linear-gradient(#ffde91, #fec438 1em, #ebb534);
+  background: -o-linear-gradient(#ffde91, #fec438 1em, #ebb534);
+  background: linear-gradient(#ffde91, #fec438 1em, #ebb534); 
+  -pie-background: linear-gradient(#ffde91, #fec438 1em, #ebb534);               
+}

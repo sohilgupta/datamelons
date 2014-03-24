@@ -1,0 +1,120 @@
+
+/* backgroud images for body */
+body.crossed { background:url(../bg/crossed.jpg) repeat; }
+body.fabric { background:url(../bg/fabric.jpg) repeat; }
+body.linen { background:url(../bg/linen.jpg) repeat; }
+body.wood { background:url(../bg/wood.jpg) repeat; }
+body.diagmonds { background:url(../bg/diagmonds.jpg) repeat; }
+body.triangles { background:url(../bg/triangles.jpg) repeat; }
+body.black_mamba { background:url(../bg/black_mamba.jpg) repeat; }
+body.vichy { background:url(../bg/vichy.jpg) repeat; }
+body.back_pattern { background:url(../bg/back_pattern.jpg) repeat; }
+body.checkered_pattern { background:url(../bg/checkered_pattern.jpg) repeat; }
+body.diamond_upholstery { background:url(../bg/diamond_upholstery.jpg) repeat; }
+body.lyonnette { background:url(../bg/lyonnette.jpg) repeat; }
+body.graphy { background:url(../bg/graphy.jpg) repeat; }
+body.black_thread { background:url(../bg/black_thread.jpg) repeat; }
+body.subtlenet2 { background:url(../bg/subtlenet2.jpg) repeat; }
+
+/* wrap */ 
+#wrap.boxed {
+	width:1000px;
+	margin:25px auto;
+	-webkit-box-shadow:  0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+	box-shadow:  0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+#wrap.boxed header.fixed .sticky-wrapper.is-sticky .main-header, #wrap.boxed header.fixed .sticky-wrapper.is-sticky .down-header {
+	width:1000px;
+}
+
+.hidden {
+	display:block;
+}
+
+#wrap.boxed .top-bar, body.under-construction header {
+	border-radius: 3px 3px 0 0;
+}
+
+#wrap.boxed .footer-down {
+	border-radius: 0 0 3px 3px ;
+}
+
+
+
+/* Media Queries
+================================================== */
+
+/* Smaller than standard 1024 (devices and browsers) */
+@media only screen and (max-width: 1024px) {
+	
+#wrap.boxed {
+	width:100%;
+	margin:0;
+}
+
+#wrap.boxed header.fixed .sticky-wrapper.is-sticky .main-header, #wrap.boxed header.fixed .sticky-wrapper.is-sticky .down-header {
+	width:100%;
+}
+	
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+#wrap.boxed {
+	width:100%;
+	margin:0;
+}
+
+#wrap.boxed header.fixed .sticky-wrapper.is-sticky .main-header, #wrap.boxed header.fixed .sticky-wrapper.is-sticky .down-header {
+	width:100%;
+}
+
+}
+
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	
+#wrap.boxed {
+	width:100%;
+	margin:0;
+}
+
+#wrap.boxed header.fixed .sticky-wrapper.is-sticky .main-header, #wrap.boxed header.fixed .sticky-wrapper.is-sticky .down-header {
+	width:100%;
+}
+	
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+#wrap.boxed {
+	width:100%;
+	margin:0;
+}
+
+#wrap.boxed header.fixed .sticky-wrapper.is-sticky .main-header, #wrap.boxed header.fixed .sticky-wrapper.is-sticky .down-header {
+	width:100%;
+}
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+#wrap.boxed {
+	width:100%;
+	margin:0;
+}
+
+#wrap.boxed header.fixed .sticky-wrapper.is-sticky .main-header, #wrap.boxed header.fixed .sticky-wrapper.is-sticky .down-header {
+	width:100%;
+}
+	
+
+}

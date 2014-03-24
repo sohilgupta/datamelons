@@ -1,0 +1,344 @@
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Main Fonts
+	#Main Colors & Backgrounds
+	#Aligns
+	#Typography
+	#Links
+	#Images
+	#Forms */
+
+/* Reset & Basics (Inspired by E. Meyers)
+================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block; 
+}
+body {
+	line-height: 1; 
+}
+ol, ul, li {
+	list-style: none; 
+}
+blockquote, q {
+	quotes: none; 
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none; 
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0; 
+}
+
+
+/* Basic Styles
+================================================== */
+html {
+	-webkit-text-size-adjust: none;
+}
+
+body {
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+* {
+	outline:none;
+}
+
+/* Enable custom submit button styling in Safari mobile */
+input[type='submit']
+{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;  
+}
+
+::-moz-selection {
+    color: #fff;
+	text-shadow:none;
+}
+
+::selection {
+    color: #fff;
+	text-shadow:none;
+}
+
+p, blockquote {
+	line-height: 23px;
+	margin-bottom:20px;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+.google-map iframe {
+	width:100%;
+	min-height:400px;
+}
+
+/* new code */
+pre {
+    background: #FCFCFC;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-line;
+    overflow: hidden;
+    line-height: 24px;
+}
+
+/* new code */ /* for responsive design */
+.fb-like-box iframe[style] {width: 100% !important; background: #fff;}
+.fb-like-box{width: 100% !important; margin-top: 6px;}
+.fb-comments, .fb-comments iframe[style], .fb-like-box, .fb-like-box iframe[style] {width: 100% !important;}
+.fb-comments span, .fb-comments iframe span[style], .fb-like-box span, .fb-like-box iframe span[style] 
+{width: 100% !important;}
+
+/* Main Fonts
+================================================== */
+body, .form-elements input, .form-elements textarea, .form-elements select, .qoute p, .tables-column .header h3 span.pop, .widget .followers li span, .one-page.welcome .welcome-text {
+	 font-family:'RobotoRegular', Arial, sans-serif;
+}
+
+.navigation ul li, .latest-blog .item p, footer, p, .services.style-1 .item h3, .progress-bar h5, .button, #horizontal-tabs ul.tabs li, #vertical-tabs ul.tabs li, .alert p, .pagination, .qoute, .welcome, .progress-bar .meter, .testimonial-item .author span, .testimonial-item .author a, .team .item h4, .services.style-2 .item h4, .services.style-3 .item h4, .page-404 .oops, .tables-column .header h3, .tables-column .header .price, .tables-column .footer h4, .square-list li, .check-list li, .plus-list li, .arrow-list li, .cross-list li, .star-list li, .minus-list li, .heart-list li, .circle-list li, .asterisk-list li, .widget .followers h4, .sidebar .widget, .blog-3 .item a.title, .form-box label, .address-info li, .phone-info li, .email-info li, body.under-construction .content h2.title, body.under-construction .content .block .label, .slider-1 .slides li h2  {
+	 font-family:'RobotoMedium', Arial, sans-serif;
+}
+
+h3.title, .subscribe input.submit, .about-author .content .data h5, .comments .comment-box h5, body.under-construction .content .block .flip-top, body.under-construction .content input.subscribe-button, .one-page h2.title, .one-page h1.title {
+	 font-family:'RobotoBold', Arial, sans-serif;
+}
+
+.img-caption .desc span, .more {
+	font-family:'RobotoThin', Arial, sans-serif;
+}
+
+footer h3.title, .subscribe input.mail, blockquote, .about-author h3, .related-posts h3, .comments-box h3, .comment-form h3, .form-box input.text, .form-box textarea, body.under-construction .content p.text, body.under-construction .content input.subscribe-text, .slider-1 .slides li p, .slider-2 .slides li h2, .slider-2 .slides li p, .notification_error, .notification_ok {
+	font-family:'RobotoCondensed', Arial, sans-serif;
+}
+
+.page-title h1, .one-page p.description {
+	font-family:'RobotoLight', Arial, sans-serif;
+}
+
+/* font size */
+.top-bar, .tables-column .header h3 span.pop, .widget.most-posts ul li span {
+	font-size:12px;
+}
+
+.latest-blog .item .meta, span.copyright, .breadcrumbs, .tables-column .header .price span, .post-meta .meta, .widget.most-posts ul.posts li, .widget .followers, .related-posts .item .meta, .comments .comment-box .date-replay, .the-icons li {
+	font-size:13px;
+}
+
+body, .navigation ul li ul li, .accordion .icon-plus, .accordion .icon-minus, .portfolio .item.element-4 .img-caption .desc p, .gallery .item.element-4 .img-caption .desc p, .footer-top.col-4 {
+	font-size:14px;
+}
+
+footer, .button.small, .alert, .alert .close, .team .item span, .post-meta .meta i, .sidebar .widget .text-search, header .widget .text-search, .widget .followers h4, .related-posts .item h5, .form-box input.text, .form-box textarea {
+	font-size:15px;
+}
+
+.phone-mail i.icon-envelope-alt, .navigation ul li, .img-caption .desc p, .subscribe input.mail, .subscribe input.submit, .progress-bar h5, blockquote, .qoute p, .testimonial-item .author span, .testimonial-item .author a, .widget #horizontal-tabs ul.tabs li, .post-tags i, .notification_error{
+	font-size:16px;
+}
+
+.phone-mail i.icon-phone, .pagination, .notification_ok {
+	font-size:17px;
+}
+
+.button.medium, #horizontal-tabs ul.tabs li, #vertical-tabs ul.tabs li,.alert  i, .breadcrumbs i.icon-home, #options li, .form-box label, .slider-1 .slides li p, .slider-2 .slides li p, .one-page p.description {
+	font-size:18px;
+}
+
+.blog-3 .item a.title, .about-author .content .data h5 {
+	font-size:19px;
+}
+
+.accordion h4, .dropcap, .form-box label small, body.under-construction .content .block .label {
+	font-size:20px;
+}
+
+.tweet_list li i.icon-twitter, .down-button, .gallery .item .img-caption .desc span {
+	font-size:22px;
+}
+
+footer h3.title, .qoute h4, .portfolio .item.element-4 .img-caption .desc h3, .gallery .item.element-4 .img-caption .desc h3, body.under-construction .content input.subscribe-text {
+	font-size:23px;
+}
+
+.button.large, .services.style-2 .circle i {
+	font-size:24px;
+}
+
+.services.style-1 .item h3, #toggle-view span.link, .welcome, body.under-construction .content input.subscribe-button, .one-page .img-caption .desc span {
+	font-size:25px;
+}
+
+h3.title, .latest-blog .item h3, .tables-column .header h3 {
+	font-size:26px;
+}
+
+.slider-1 .slides li h2 {
+	font-size: 27px;
+}
+
+.pagination a.next-button, .pagination a.prev-button, .portfolio-control a.all, .slidecontrols li a, .more, .portfolio-control {
+	font-size:28px;
+}
+
+.page-404 .text {
+	font-size:30px;
+}
+
+.flex-direction-nav li a, #toTop {
+	font-size:31px;
+}
+
+body.under-construction .content p.text {
+	font-size:32px;
+}
+
+body.under-construction .content h2.title {
+	font-size:39px;
+}
+
+.slider-1 .flex-direction-nav li a, .slider-2 .flex-direction-nav li a {
+	font-size:41px;
+}
+
+.slider-2 .slides li h2 span {
+	font-size:42px;
+}
+
+.services.style-3 .circle i {
+	font-size:44px;
+}
+
+.img-caption .desc span, .page-404 i.icon-fire, body.under-construction .content .block .flip-top {
+	font-size: 50px;
+}
+
+.services.style-1 .item .circle {
+	font-size:55px;
+}
+
+.page-404 i.icon-coffee{
+	font-size: 100px;
+}
+
+.page-404 .oops {
+	font-size:135px;
+}
+
+/* fonts list for icons */
+.s-10 { font-size:10px; } .s-11 { font-size:11px; } .s-12 { font-size:12px; } .s-13 { font-size:13px; } .s-14 { font-size:14px; }
+.s-15 { font-size:15px; } .s-16 { font-size:16px; } .s-17 { font-size:17px; } .s-18 { font-size:18px; } .s-19 { font-size:19px; }
+.s-20 { font-size:20px; } .s-21 { font-size:21px; } .s-22 { font-size:22px; } .s-23 { font-size:23px; } .s-24 { font-size:24px; }
+.s-25 { font-size:25px; } .s-26 { font-size:26px; } .s-27 { font-size:27px; } .s-28 { font-size:28px; } .s-29 { font-size:29px; }
+.s-30 { font-size:30px; } .s-31 { font-size:31px; } .s-32 { font-size:32px; } .s-33 { font-size:33px; } .s-34 { font-size:34px; }
+.s-35 { font-size:35px; } .s-36 { font-size:36px; } .s-37 { font-size:37px; } .s-38 { font-size:38px; } .s-39 { font-size:39px; }
+.s-40 { font-size:40px; } .s-41 { font-size:41px; } .s-42 { font-size:42px; } .s-43 { font-size:43px; } .s-44 { font-size:44px; }
+.s-45 { font-size:45px; } .s-46 { font-size:46px; } .s-47 { font-size:47px; } .s-48 { font-size:48px; } .s-49 { font-size:49px; }
+.s-50 { font-size:50px; } .s-51 { font-size:51px; } .s-52 { font-size:52px; } .s-53 { font-size:53px; } .s-54 { font-size:54px; }
+.s-55 { font-size:55px; } .s-56 { font-size:56px; } .s-57 { font-size:57px; } .s-58 { font-size:58px; } .s-59 { font-size:59px; }
+.s-60 { font-size:60px; } .s-61 { font-size:61px; } .s-62 { font-size:62px; } .s-63 { font-size:63px; } .s-64 { font-size:64px; }
+.s-65 { font-size:65px; } .s-66 { font-size:66px; } .s-67 { font-size:67px; } .s-68 { font-size:68px; } .s-69 { font-size:69px; }
+.s-70 { font-size:70px; } .s-71 { font-size:71px; } .s-72 { font-size:72px; } .s-73 { font-size:73px; } .s-74 { font-size:74px; }
+.s-75 { font-size:75px; } .s-76 { font-size:76px; } .s-77 { font-size:77px; } .s-78 { font-size:78px; } .s-79 { font-size:79px; }
+.s-80 { font-size:80px; } .s-81 { font-size:81px; } .s-82 { font-size:82px; } .s-83 { font-size:83px; } .s-84 { font-size:84px; }
+.s-85 { font-size:85px; } .s-86 { font-size:86px; } .s-87 { font-size:87px; } .s-88 { font-size:88px; } .s-89 { font-size:89px; }
+.s-90 { font-size:90px; } .s-91 { font-size:91px; } .s-92 { font-size:92px; } .s-93 { font-size:93px; } .s-94 { font-size:94px; }
+.s-95 { font-size:95px; } .s-96 { font-size:96px; } .s-97 { font-size:97px; } .s-98 { font-size:98px; } .s-99 { font-size:99px; }
+.s-100 { font-size:100px; }
+
+/* Aligns
+================================================== */
+.services.style-1 .item h3, .services.style-1 .item .circle, .services.style-1 .item p, .slidecontrols li a, .more, #toTop, table.style th, table.style td, .welcome, .services.style-2 .item .circle, .services.style-3 .item .circle, .page-404 .oops, .page-404 .text, .tables-column, .flex-direction-nav li a, .blog-3 #options #filters, .blog-3 .pagination-contain, .member-social a, .share-social a, body.under-construction header .logo, body.under-construction .content, body.under-construction footer, header.style-3.style-5 .logo, header.style-3.style-5 .navigation, .slider-2 .slides li .contain, .one-page h2.title, .one-page p.description, .one-page #options #filters, .one-page h1.title, .download-now, .welcome-text, .notification_ok  {
+	text-align:center;
+}
+
+header.style-3.style-5 .navigation > #nav, .one-page.section h2, .one-page.section p, .notification_error {
+	text-align:left;
+}
+
+
+/* Typography
+================================================== */
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: normal; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 24px; }
+	h6 { font-size: 14px; line-height: 21px; }
+
+	em { font-style: italic; }
+	strong { font-weight: bold; }
+	small { font-size: 80%; }
+	
+
+/* Rotate
+================================================== */
+.tables-column .header h3 span.pop {
+	-webkit-transform: rotate(45deg); /* Chrome & Safari */
+    -moz-transform: rotate(45deg); /* Firefox */
+    -ms-transform: rotate(45deg); /* IE 9+ */
+    -o-transform: rotate(45deg); /* Opera */
+    transform: rotate(45deg); /* CSS3 */
+}
+
+html.ie.ie8 .tables-column .header h3 span.pop {
+   margin-right: -6px; 
+   margin-top: -27px;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865474, M12=-0.7071067811865477, M21=0.7071067811865477, M22=0.7071067811865474, SizingMethod='auto expand')";
+}
+
+/* Links
+================================================== */
+a, .subscribe input.submit, .button, #horizontal-tabs.style2 ul.tabs li, #vertical-tabs.style2 ul.tabs li, .team .item img, body.under-construction .content input.subscribe-button { 
+	-webkit-transition: all 0.3s ease-in;  
+    -moz-transition: all 0.3s ease-in;  
+    -ms-transition: all 0.3s ease-in;  
+    -o-transition: all 0.3s ease-in;  
+    transition: all 0.3s ease-in;
+}
+
+.services.style-1 .item .circle, .latest-blog .item img, .featured-clients img, .services.style-2 .item .circle, .services.style-3 .item .circle, .image-post img, .widget.most-posts ul.posts li img, #footer.thumbs li img, #sidebar.thumbs li img, .related-posts .item img { 
+	-webkit-transition: all 0.4s ease-in;  
+    -moz-transition: all 0.4s ease-in;  
+    -ms-transition: all 0.4s ease-in;  
+    -o-transition: all 0.4s ease-in;  
+    transition: all 0.4s ease-in;
+}
+
+a { 
+   text-decoration:none;
+}
+
+/* Images
+================================================== */
+img {
+	max-width: 100%;
+	height: auto; 
+}
+
+/* Forms
+================================================== */

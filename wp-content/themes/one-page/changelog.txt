@@ -1,0 +1,54 @@
+== Changelog ==
+
+= Theme Name: One Page =
+
+= Version: 1.0.6 =
+1.Changed Theme URI to a valid one.
+
+= Version: 1.0.5 =
+1.Fixed homepage recent blogs responsive issue in tablet.
+2.Fixed mobile menu not showing issue. Updated mobile-menu.js .
+3.Changed body line-height to improve typography in footer and sidebar.
+4.Added new transition to homepage featured blog thumbnails on hover.
+5.Removed unnecessary margin from top featured image.
+6.Removed box shadow from header in mobile and tablet view.
+7.Removed rdf text domain from single.php .
+8.Added constant for Page: in page.php .
+
+= Version: 1.0.4 =
+1.Fixed - NOTICE: wp-content/themes/one-page/functions/inkthemes-functions.php:159 - Use of undefined constant PAGE - assumed 'PAGE'
+
+= Version: 1.0.3 =
+1.Removed the redundant code from functions.php  // Add Editors stylesheet
+2.Fixed - inkthemes-functions.php: Global and custom function prefixes not fully fixed - i.e. rcp_recent_posts, init_rcp_recent_posts & custom_trim_excerpt
+3.Fixed - HTML <title> tag must include only wp_title() call; additional content, if needed, must be added via wp_title filter.
+4.Fixed - front-page.php: For security reasons iframes are not allowed - Removed all the iframe codes and dependencies.
+5.Removed the formget iframe code.
+
+= Version: 1.0.2 =
+1.Fixed - functions.php: wp_enqueue_script('jquery'); is not required as you are already referencing jquery as a dependant in an array.
+2.Fixed - functions.php: add_editor_style should be called from a function callback hooked to the after_setup_theme action.
+3.Fixed - inkthemes-plugin-notify.php: Bundled plugins should be recommended and not required add-ons.
+4.Fixed - inkthemes-functions.php: Please remove if function_exists wrappers from all of the following.
+if (function_exists('add_image_size'))
+add_theme_support('automatic-feed-links');
+5.Fixed - inkthemes-functions.php: between line 5 and 7 - add_theme_support('post-thumbnails'); is called twice plus it should not be wrapped with the if function_exists wrapper.
+6.Fixed - inkthemes-functions.php: All of the following must be called from with in a function callback hooked to the after_setup_theme
+add_theme_support('automatic-feed-links');
+add_theme_support('post-thumbnails');
+add_image_size('post_thumbnail', 600, 250, true);
+add_image_size('post_thumbnail_1', 70, 70, true);
+register_nav_menu
+7.Fixed - inkthemes-functions.php: function businessgrow_childtheme_analytics() is plugin territory - please remove the function and any of its associated code.
+8.Fixed - inkthemes-functions.php: All global/public variables and custom functions must be prefixed with the theme's relevant and unique prefix.
+9.Fixed - inkthemes-functions.php and blog.php: Please do not use query_posts for custom queries - you should be using either the WP_Query() or pre_get_posts.
+10.Fixed - front-page.php: Please do not use your own information as placeholder text.
+11.Fixed - front-page.php: Styles and scripts must not be hardcoded in the document head - remove inline styles @line 27 and the following should be bundled with the theme and enqueued correctly.
+12.Fixed - header.php: HTML <title> tag must include only wp_title() call; additional content, if needed, must be added via wp_title filter.
+13.Fixed - header.php: Remove inline style from the body class - there are better ways to add custom background.
+14.Fixed - footer.php: Credit link references the theme name as BusinessGrow and not as One Page? In addition as the anchor text is the theme name then the link should be the theme url.
+15.Fixed - Please include license/copyright annotation for all of the fonts located in the fonts folder.
+16.Fixed - License and copyright required for both custom.js and mobile-menu.js even if these were created by you.
+
+= Version: 1.0.1 =
+* * One Page Theme is created on 06/11/2013.

@@ -1,0 +1,315 @@
+/**
+ * Gravity Forms General
+ ************************************************/
+ 
+/* Images */
+ 
+img.add_list_item,
+img.delete_list_item,
+img.ui-datepicker-trigger {
+	background: transparent;
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	}
+
+/* Basic form */
+
+.gform_description { /* Form description, not input field description */
+	display: block;
+	padding: 11px 0;
+	}
+	
+.gform_wrapper .validation_error {
+    color: #eb3b05;
+	}
+
+.gform_wrapper ul {
+	background: transparent;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+	.gform_wrapper ul li{
+		background: transparent;
+		margin: 0;
+		padding: 11px 0;
+		}
+		.gform_wrapper li.gfield.gfield_error,
+		.gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+			border: 1px solid #eb3b05;
+			}		
+			
+		li.gfield label { /* for all labels */
+			display: block;
+			font-weight: normal;
+			}
+			li.gfield label .gfield_required{
+				display: inline-block;
+				color: #eb3b05;
+				margin-left: 5px;
+				}
+
+		.gform_wrapper .top_label .gfield_label { /* first level labels, outside of .ginput_container */
+			display: inline-block;
+			font-weight: normal;
+			}
+			
+			.ginput_container label { /* lower level labels, inside .ginput_container */
+				font-size: 11px;
+				line-height: 18px;
+				}
+			.ginput_container input[type="password"],
+			.ginput_container input[type="text"],
+			.ginput_container select,
+			.ginput_container textarea {
+				width: 100%;
+				}
+				
+			.ginput_counter { /* character limit counter, displayed directly after input field */
+				display: inline-block;
+				font-size: 11px;
+				line-height: 18px;
+				padding: 0 0 0 20px;
+				}
+
+			.gform_wrapper .gfield_description {
+				display: block;
+				padding: 10px 20px 0;
+				}
+				
+			.gform_wrapper li.gfield.gfield_error .gfield_description {
+				color: #eb3b05;
+				}
+				
+			.gform_wrapper .top_label .gfield_description.validation_message,
+			.gform_wrapper .gfield_description.validation_message {
+				padding: 10px 20px !important;
+				}
+
+			/* Miscellaneous labels */
+			
+			.ginput_product_price_label,
+			.ginput_product_price,
+			.ginput_shipping_price,
+			.ginput_total {
+				padding: 0 0 0 20px;
+				}
+				
+/* Complex form */
+
+div.ginput_complex{
+	clear: both;
+	display: block;
+	float: left;
+	margin: 0 0 18px;
+	width: 100%;
+	}
+
+	.gform_wrapper .ginput_complex .ginput_left {
+		float: left;
+		width: 49%;
+		}
+	
+	.gform_wrapper .ginput_complex .ginput_right {
+		float: right;
+		width: 49%;
+		}
+
+div.clear-multi { /* Wraps more than two .ginput_container */
+	clear: both;
+	}
+div.clear-multi:after {
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	}
+	div.clear-multi div.ginput_container {
+		float: left;
+		margin-right: 5px;
+		}
+	div.clear-multi div.gfield_time_hour label {
+		display: inline-block;
+		}
+
+/* Radios and Checkboxes */
+.gform_wrapper ul.gfield_checkbox, .gform_wrapper ul.gfield_radio {
+    margin: 11px 0;
+	}
+	.gform_wrapper .gfield_checkbox li label,
+	.gform_wrapper .gfield_radio li label {
+		display: inline-block;
+		margin: 0 0 5px;
+		padding: 0 0 0 10px;
+		}
+
+
+/* Tables */
+
+.gform_wrapper table.gfield_list thead th, .gform_wrapper table.gfield_list td {
+    padding: 12px 0;
+	}
+.gform_wrapper table.gfield_list thead th {
+	padding: 12px 20px;
+	}
+
+.gform_wrapper table.gfield_list td.gfield_list_icons {
+	vertical-align: middle;
+	}
+
+/* Form footer */
+
+.gform_footer,
+.gform_wrapper .gform_page_footer {
+	border: 0;
+	padding: 11px 0;
+	}
+	
+#gforms_confirmation_message {
+	margin: 0;
+	padding: 12px 0;
+}
+
+	
+/**
+ * Form fields
+ ************************************************/
+ 
+.gform_wrapper input[type="text"],
+.gform_wrapper input[type="url"],
+.gform_wrapper input[type="email"],
+.gform_wrapper input[type="tel"],
+.gform_wrapper input[type="number"],
+.gform_wrapper input[type="password"],
+.gform_wrapper textarea {
+	font-size: 12px;
+	padding: 9px 20px;
+	padding: 6px 20px\9; /* Internet Explorer hack */
+	}
+	
+.gform_wrapper select {
+	font-size: 12px;
+	padding: 9px 20px 8px;
+	}
+	
+	@media (-webkit-min-device-pixel-ratio: 0) {
+	
+		.gform_wrapper select {
+			padding-top: 6px;
+			}
+
+		.gform_wrapper select,
+		.gform_wrapper select[size="0"],
+		.gform_wrapper select[size="1"] {
+			background-image: url(../images/arrow-select.png);
+			background-repeat: no-repeat;
+			background-position: right center;
+			padding-right: 30px;
+			}
+	
+		.gform_wrapper select[size],
+		.gform_wrapper select[multiple],
+		.gform_wrapper select[multiple][size] {
+			background-image: none;
+			height: auto;
+			padding-right: 0px;
+			}
+
+		}
+	
+.gform_wrapper.gf_browser_gecko ul.gform_fields li.gfield div.ginput_complex span.ginput_left select,
+.gform_wrapper.gf_browser_gecko ul.gform_fields li.gfield div.ginput_complex span.ginput_right select,
+.gform_wrapper.gf_browser_gecko ul.gform_fields li.gfield select {
+    margin-left: 0px;
+	}
+
+/**
+ * Progress Bar
+ ************************************************/
+
+.gform_wrapper .gf_progressbar_wrapper {
+    border-bottom: 0;
+    clear: both;
+    margin: 0px 0px 8px;
+    padding: 0px 0px 16px;
+    width: 99%;
+	}
+	.gform_wrapper .gf_progressbar_wrapper h3.gf_progressbar_title {
+		font-family: Verdana, sans-serif;
+		font-size: 10px;
+		font-weight: bold;
+		text-transform: uppercase;
+		}
+
+
+/**
+ * Jquery UI Date Picker
+ ************************************************/
+
+img.ui-datepicker-trigger {
+	margin: 15px 0 0 10px;
+	}
+	
+.ui-datepicker-div, .ui-datepicker-inline, #ui-datepicker-div {
+	background-color: #1c0f08;
+	border: 4px solid #322219;
+	color: #c3a798;
+	width: auto !important;
+	}
+	
+.ui-datepicker-next, .ui-datepicker-prev {
+	background-color: #322219;
+	}
+	.ui-datepicker-next a, .ui-datepicker-prev a {
+		border: 1px solid #322219;
+		}
+	
+.ui-datepicker-header select {
+	background-color: #322219;
+    border: 0;
+	color: #c3a798;
+	}
+	
+table.ui-datepicker,
+table.ui-datepicker caption,
+table.ui-datepicker th,
+table.ui-datepicker td {
+	border-color: #322219;
+	}
+	
+table.ui-datepicker caption,
+table.ui-datepicker th,
+table.ui-datepicker tr.alt {
+	background-color: #29160c;
+	}
+
+table.ui-datepicker th,
+table.ui-datepicker td {
+	padding: 6px;
+	}
+	
+table.ui-datepicker td a {
+	background-color: transparent;
+	border: 0;
+    color: #fff;
+	}
+
+table.ui-datepicker .ui-datepicker-title-row td a {
+	color: #fff;
+	}
+
+/**
+ * Responsive CSS
+ ************************************************/
+
+@media only screen and (max-width: 721px) {
+	.gform_wrapper .ginput_complex .ginput_left,
+	.gform_wrapper .ginput_complex .ginput_right {
+		width: 100%;
+		}
+}

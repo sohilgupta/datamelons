@@ -1,0 +1,41 @@
+Changelog Legend:
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(25/02/2014) - Improvements - Version 1.0.6
+
+[+] Added upload button into Theme Options for easier choosing custom Favicon.
+[+] Added support for TinyMCE editor styling to make the editor content match the resulting post output in the theme.
+[*] Edited enqueue function for Theme Options framework CSS.
+[*] Edited function for choosing Google Fonts.
+[*] Edited links for Theme Support and Get Premium Version in Theme Options panel.
+[*] Edited CSS information for headlines, blockquotes and <hr> tag.
+[*] Renamed file with custom page template.
+[*] Changed the Scroll-top button.
+[x] Removed Facebook Like button from Theme Options.
+[x] Deleted the unused function for custom post excerpts.
+
+----
+
+(27/10/2013) - Improvements - Version 1.0.5
+
+[+] Added translation into Hungarian.
+[*] Updated bundled plugin Cyclone Slider 2 into version 2.7.6.
+
+----
+
+(03/10/2013) - Improvements - Version 1.0.4
+
+[+] Added translations into French, German and Slovak.
+[*] Updated bundled plugin Cyclone Slider 2 into version 2.7.4.
+
+----
+
+(28/09/2013) - The first public release - Version 1.0.3

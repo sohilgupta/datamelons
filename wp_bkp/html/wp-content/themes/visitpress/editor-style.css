@@ -1,0 +1,11 @@
+@import url( 'style.css' );
+
+body {
+  padding: 20px;
+  background: white;
+}
+#tinymce p,
+#tinymce ul,
+#tinymce ol {
+  margin-bottom: 20px;           
+} 

@@ -1,0 +1,732 @@
+# Translation of the WordPress theme VisitPress 1.0 by Tomas Toman.
+# This file is distributed under the same license as the VisitPress package.
+# Tomas Toman <support@tomastoman.cz>, 2013.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VisitPress 1.0\n"
+"POT-Creation-Date: 2013-08-30 11:27+0100\n"
+"PO-Revision-Date: 2013-10-01 15:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n"
+"+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: Slovak\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:16 search.php:29
+msgid "Nothing Found"
+msgstr "Nič nenájdené"
+
+#: 404.php:17
+msgid ""
+"Apologies, but no results were found for your request. Perhaps searching "
+"will help you to find a related content."
+msgstr ""
+"Ospravedlňujem sa, ale neboli nájdené žiadne výsledky pre vašu žiadosť. Snáď "
+"hľadanie vám pomôže nájsť súvisiaci obsah."
+
+#: archive.php:18
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archív dňa: %s"
+
+#: archive.php:20
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archív mesiaca: %s"
+
+#: archive.php:22
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archív roka: %s"
+
+#: archive.php:24
+msgid "Archives"
+msgstr "Archívy"
+
+#: author.php:18
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archív autora: %s"
+
+#: author.php:28
+#, php-format
+msgid "About %s"
+msgstr "O %s"
+
+#: class-tgm-plugin-activation.php:155 functions.php:310
+msgid "Install Required Plugins"
+msgstr "Inštalácia požadovaných Modulov"
+
+#: class-tgm-plugin-activation.php:156 functions.php:311
+msgid "Install Plugins"
+msgstr "Inštalovať Moduly"
+
+#: class-tgm-plugin-activation.php:157 functions.php:315
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Inštalácia Modulu: %s"
+
+#: class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr "Niečo sa pokazilo."
+
+#: class-tgm-plugin-activation.php:169 functions.php:321
+msgid "Return to Required Plugins Installer"
+msgstr "Späť na Inštaláciu požadovaných Modulov"
+
+#: class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr "Späť na nástenku"
+
+#: class-tgm-plugin-activation.php:171 class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr "Modul bol úspešne aktivovaný."
+
+#: class-tgm-plugin-activation.php:172
+msgid "The following plugin was activated successfully:"
+msgstr "Nasledujúci Modul bol úspešne aktivovaný:"
+
+#: class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Všetky moduly boli úspešne nainštalované a aktivované. %1$s"
+
+#: class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr "Odstrániť toto upozornenie"
+
+#: class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr "Externý odkaz"
+
+#: class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr "Vlastné zložka"
+
+#: class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr "Predpripravené"
+
+#: class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr "WordPress adresár"
+
+#: class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr "Vyžadovaný"
+
+#: class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr "Odporúčaný"
+
+#: class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr "Nie je nainštalovaný"
+
+#: class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr "Nainštalované, ale nie je aktivovaný"
+
+#: class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Žiadne Moduly na inštaláciu alebo aktiváciu. <a href=\"%1$s\" title=\"Späť "
+"na nástenku\">Späť na nástenku</a>"
+
+#: class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr "Modul"
+
+#: class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr "Zdroj"
+
+#: class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr "Typ"
+
+#: class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr "Štatút"
+
+#: class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr "Inštalovať"
+
+#: class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr "Aktivovať"
+
+#: class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr "Inštalačný balíček nie je k dispozícii."
+
+#: class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Sťahovanie inštalačného balíka z <span class=\"code\">%s</span>&#8230;"
+
+#: class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr "Rozbaľovanie balíčka&#8230;"
+
+#: class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr "Inštalácia Modulu&#8230;"
+
+#: class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr "Inštalácia Modulu sa nepodarila."
+
+#: class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr "Modul bol úspešne nainštalovaný."
+
+#: class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr "Aktivácia Modulu sa nepodarila."
+
+#: class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Proces inštalácie a aktivácie bol zahájený. Tento proces môže chvíľu trvať "
+"na niektorých počítačoch, takže buďte prosím trpezliví."
+
+#: class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s Modul bol úspešne nainštalovaný."
+
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr "Zobraziť podrobnosti"
+
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr "Skryť podrobnosti"
+
+#: class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr "Všetky inštalácie a aktivácie boli dokončené."
+
+#: class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Inštalácia a aktivácia Modulu %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Proces inštalácie bol zahájený. Tento proces môže chvíľu trvať na niektorých "
+"počítačoch, takže buďte prosím trpezliví."
+
+#: class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Došlo k chybe pri inštalácii %1$s: <strong>%2$s</strong>."
+
+#: class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Inštalácia %1$s zlyhala."
+
+#: class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s bol úspešne nainštalovaný."
+
+#: class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr "Všetky inštalácie boli dokončené."
+
+#: class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Inštalácia Modulu %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr "Späť na nástenku"
+
+#: comments.php:30
+msgid "Comment navigation"
+msgstr "Navigácia medzi komentármi"
+
+#: comments.php:31
+msgid "&larr; Older Comments"
+msgstr "&larr; Staršie komentáre"
+
+#: comments.php:32
+msgid "Newer Comments &rarr;"
+msgstr "Novšie komentáre &rarr;"
+
+#: comments.php:37
+msgid "Comments are closed."
+msgstr "Pridávanie komentárov bolo ukončené."
+
+#: functions.php:85
+msgid "Header Menu"
+msgstr "Navigácia v záhlaví"
+
+#: functions.php:86
+msgid "Sidebar Menu"
+msgstr "Postranná navigácia"
+
+#: functions.php:98
+msgid "Main Sidebar"
+msgstr "Hlavný Sidebar"
+
+#: functions.php:100
+msgid "Right sidebar which appears on posts and pages."
+msgstr "Pravý postranný panel, ktorý sa objavuje u článkov a stránok."
+
+#: functions.php:107
+msgid "Footer left widget"
+msgstr "Ľavý widget v päte"
+
+#: functions.php:109
+msgid ""
+"Left widget from the footer widget area. Please insert only one widget to "
+"this area."
+msgstr ""
+"Ľavý widget z panela pre widgety v päte. Prosím vložte sem iba jeden widget."
+
+#: functions.php:116
+msgid "Footer middle widget"
+msgstr "Prostredný widget v päte"
+
+#: functions.php:118
+msgid ""
+"Middle widget from the footer widget area. Please insert only one widget to "
+"this area."
+msgstr ""
+"Prostredný widget z panela pre widgety v päte. Prosím vložte sem iba jeden "
+"widget."
+
+#: functions.php:125
+msgid "Footer right widget"
+msgstr "Pravý widget v päte"
+
+#: functions.php:127
+msgid ""
+"Right widget from the footer widget area. Please insert only one widget to "
+"this area."
+msgstr ""
+"Pravý widget z panela pre widgety v päte. Prosím vložte sem iba jeden widget."
+
+#: functions.php:134
+msgid "Footer notices"
+msgstr "Informácie v päte"
+
+#: functions.php:136
+msgid "The line for copyright and other notices below the footer widget area."
+msgstr ""
+"Riadok pre informácie o autorstvo a ďalšie poznámky pod panelom pre widgety "
+"v päte."
+
+#: functions.php:143
+msgid "Home page slideshow"
+msgstr "Slideshow na úvodnej stránke"
+
+#: functions.php:145
+msgid ""
+"The area for Cyclone Slider Widget which displays a slideshow on your home "
+"page."
+msgstr ""
+"Oblasť určená pre vloženie Cyclone Slider Widgetu pre zobrazenie slideshow "
+"na úvodnej stránke."
+
+#: functions.php:152
+msgid "Header icons"
+msgstr "Ikony v záhlaví"
+
+#: functions.php:154
+msgid ""
+"Insert here the VisitPress Header Bar Widget. Then fill your home/contact/"
+"sitemap URLs. The links will display as icons in header."
+msgstr ""
+"Oblasť určená pre VisitPress Header Bar Widget. Vyplňte URL adresy domovskej "
+"a kontaktné stránky a mapy stránok. Odkazy sa objaví v podobe ikon v záhlaví "
+"webu."
+
+#: functions.php:173 functions.php:187
+msgid "Post navigation"
+msgstr "Navigácia medzi článkami"
+
+#: functions.php:174
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Staršie články"
+
+#: functions.php:175
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Novšie články <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:188
+msgid "&larr; Previous post"
+msgstr "&larr; Predchádzajúci článok"
+
+#: functions.php:189
+msgid "Next post &rarr;"
+msgstr "Nasledujúci článok &rarr;"
+
+#: functions.php:205
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:205
+msgid "(Edit)"
+msgstr "(Upraviť)"
+
+#: functions.php:218
+msgid "(Post author)"
+msgstr "(Autor článku)"
+
+#: functions.php:224
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s v %2$s"
+
+#: functions.php:230
+msgid "Your comment is awaiting moderation."
+msgstr "Váš komentár čaká na moderovanie."
+
+#: functions.php:235
+msgid "Edit"
+msgstr "Upraviť"
+
+#: functions.php:239
+msgid "Reply"
+msgstr "Odpovedať"
+
+#: functions.php:312
+#, php-format
+msgid ""
+"The %1$s plugin is required for this theme. Click on the big blue button "
+"below to install and activate %1$s."
+msgstr ""
+"%1$s Modul je vyžadovaný pre túto tému. Kliknite na veľké modré tlačidlo "
+"nižšie k inštalácii a aktivácii %1$s."
+
+#: functions.php:313
+#, php-format
+msgid ""
+"The %1$s is installed but currently inactive. Please go to the <a href=\"%2$s"
+"\">plugin administration page</a> page to activate it."
+msgstr ""
+"%1$s je nainštalovaný, ale v súčasnej dobe neaktívný. Prosím, prejdite na <a "
+"href=\"%2$s\">stránku administrácie Modulov</a> pre jeho aktiváciu."
+
+#: functions.php:314
+#, php-format
+msgid "Install %s Now"
+msgstr "Nainštalovať %s teraz"
+
+#: functions.php:316
+msgid "Something went wrong with the plugin API."
+msgstr "Niečo je zle s API Modulu."
+
+#: functions.php:317
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. <a href=\"%2$s\"><strong>Click here to "
+"begin the installation process</strong></a>. You may be asked for FTP "
+"credentials based on your server setup."
+msgstr ""
+"Táto téma vyžaduje inštaláciu Modulu %1$s. <a href=\"%2$s\"><strong>Kliknite "
+"sem pre spustenie procesu inštalácie</strong></a>. Môžete byť požiadaní o "
+"FTP poverenia na základe nastavenia vášho servera."
+
+#: functions.php:318
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"Je nám ľúto, ale nemáte dostatočné oprávnenie na inštaláciu %s Modulu. "
+"Obráťte sa na správcu tohto webu so žiadosťou o pomoc s inštaláciou Modulu."
+
+#: functions.php:319
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. That plugin is currently inactive, so "
+"please go to the <a href=\"%2$s\">plugin administration page</a> to activate "
+"it."
+msgstr ""
+"Táto téma vyžaduje inštaláciu Modulu %1$s.  Tento modul je v súčasnosti "
+"neaktívny, a tak prosím prejdite na stránku <a href=\"%2$s\">administrácie "
+"Modulov</a> a aktivujte ho."
+
+#: functions.php:320
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"Je nám ľúto, ale nemáte dostatočné oprávnenie na aktiváciu %s Modulu. "
+"Obráťte sa na správcu tohto webu so žiadosťou o pomoc s aktiváciou Modulu."
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Výsledky vyhľadávania pre: %s"
+
+#: search.php:30
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Je nám ľúto, ale Vašim kritériám nevyhovuje žiadny výsledok. Skúste to znova "
+"s iným vyhľadávacím dotazom."
+
+#: search.php:34
+msgid "Search results navigation"
+msgstr "Navigácia medzi výsledkami vyhľadávania"
+
+#: search.php:35
+msgid "<span class=\"meta-nav\">&larr;</span> Previous results"
+msgstr "<span class=\"meta-nav\">&larr;</span> Predchádzajúce výsledky"
+
+#: search.php:36
+msgid "Next results <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Ďalšie výsledky <span class=\"meta-nav\">&rarr;</span>"
+
+#: tag.php:16
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archív značky: %s"
+
+#: functions/be/fw-options.php:1856
+msgid "settings reset."
+msgstr "nastavenia resetované."
+
+#: functions/be/fw-setup.php:16
+msgid "Theme Options"
+msgstr "Nastavenie témy"
+
+#: functions/fe/header-bar-widget.php:12
+msgid "Displays the home/contact/sitemap links in header."
+msgstr "Zobrazí lištu s odkazmi domov/kontakt/mapa stránok v záhlaví."
+
+#: functions/fe/header-bar-widget.php:14
+msgid "VisitPress Header Bar Widget"
+msgstr "VisitPress Header Bar Widget"
+
+#: functions/fe/header-bar-widget.php:41
+msgid "Home page URL:"
+msgstr "URL adresa úvodnej stránky:"
+
+#: functions/fe/header-bar-widget.php:45
+msgid "Insert the URL of your Home page (example: http://www.yourdomain.com)."
+msgstr ""
+"Sem vložte URL adresu úvodnej stránky Vášho webu (príklad: http://www."
+"vasadomena.com)."
+
+#: functions/fe/header-bar-widget.php:51
+msgid "Contact page/e-mail:"
+msgstr "Kontaktná stránka/e-mail:"
+
+#: functions/fe/header-bar-widget.php:55
+msgid ""
+"Insert the full URL of your Contact page or contact e-mail address If you "
+"want to insert an e-mail, please add the prefix \"mailto:\" (example: mailto:"
+"info@yourdomain.com)."
+msgstr ""
+"Sem vložte celú URL adresu of Vašej kontaktnej stránky alebo kontaktnú e-"
+"mailovú adresu. Ak vkladáte e-mail, pridajte prosím pred adresu predponu "
+"\"mailto:\" (príklad: mailto:info@vasadomena.com)."
+
+#: functions/fe/header-bar-widget.php:61
+msgid "Sitemap URL:"
+msgstr "Adresa mapy stránok:"
+
+#: functions/fe/header-bar-widget.php:65
+msgid ""
+"Insert the full URL of your Sitemap page (example: http://www.yourdomain.com/"
+"sitemap)."
+msgstr ""
+"Sem vložte celú URL adresu mapy stránok Vášho webu (príklad: http://www."
+"vasadomena.com/sitemap)."
+
+#: functions/fe/library.php:46 functions/fe/library.php:56
+msgid "<strong>Posted</strong>: "
+msgstr "<strong>Publikované:</strong>: "
+
+#: functions/fe/library.php:66
+msgid "<strong>Category</strong>: "
+msgstr "<strong>Kategórie</strong>: "
+
+#: functions/fe/library.php:74 functions/fe/library.php:80
+msgid "<strong>Author</strong>: "
+msgstr "<strong>Autor:</strong>: "
+
+#: functions/fe/social-widget.php:12
+msgid "A Social widget by visitpress"
+msgstr "Widget sociálnych sietí pre VisitPress"
+
+#: functions/fe/social-widget.php:14
+msgid "VisitPress Social Widget"
+msgstr "VisitPress Social Widget"
+
+#: functions/fe/social-widget.php:86 functions/fe/twitter-widget.php:39
+msgid "Title:"
+msgstr "Titulok:"
+
+#: functions/fe/social-widget.php:93
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: functions/fe/social-widget.php:97
+msgid "Insert the full URL of your Twitter profile."
+msgstr "Vložte celú URL adresu Vášho Twitter profilu."
+
+#: functions/fe/social-widget.php:103
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: functions/fe/social-widget.php:107
+msgid "Insert the full URL of your Facebook profile, page or group."
+msgstr "Vložte celú URL adresu Vášho Facebook profilu, stránky alebo skupiny."
+
+#: functions/fe/social-widget.php:113
+msgid "RSS:"
+msgstr "RSS:"
+
+#: functions/fe/social-widget.php:117
+msgid "Insert the Url of your RSS. You may include your RSS from Feedburner."
+msgstr ""
+"Vložte URL adresu Vášho RSS kanála. Môžete vložiť Vaše RSS z FeedBurner."
+
+#: functions/fe/social-widget.php:123
+msgid "Google Plus:"
+msgstr "Google Plus:"
+
+#: functions/fe/social-widget.php:127
+msgid "Insert the full URL of your Google Plus profile"
+msgstr "Vložte celú URL adresu Vášho Google Plus profilu."
+
+#: functions/fe/social-widget.php:133
+msgid "You Tube:"
+msgstr "You Tube:"
+
+#: functions/fe/social-widget.php:137
+msgid "Insert the full URL of your YouTube profile."
+msgstr "Vložte celú URL adresu Vášho YouTube profilu."
+
+#: functions/fe/social-widget.php:143
+msgid "Linkedin:"
+msgstr "Linkedin:"
+
+#: functions/fe/social-widget.php:147
+msgid "Insert the full URL of your Linkedin profile."
+msgstr "Vložte celú URL adresu Vášho Linkedin profilu."
+
+#: functions/fe/social-widget.php:153
+msgid "Delicious:"
+msgstr "Delicious:"
+
+#: functions/fe/social-widget.php:157
+msgid "Insert the full URL of your Delicious profile."
+msgstr "Vložte celú URL adresu Vášho Delicious profilu."
+
+#: functions/fe/social-widget.php:163
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+#: functions/fe/social-widget.php:167
+msgid "Insert the full URL of your Pinterest profile."
+msgstr "Vložte celú URL adresu Vášho Pinterest profilu."
+
+#: functions/fe/social-widget.php:173
+msgid "Flickr:"
+msgstr "Flickr:"
+
+#: functions/fe/social-widget.php:177
+msgid "Insert the full URL of your Flickr profile."
+msgstr "Vložte celú URL adresu Vášho Flickr profilu."
+
+#: functions/fe/twitter-widget.php:13
+msgid "Twitter widget by visitpress"
+msgstr "Twitter widget pre VisitPress"
+
+#: functions/fe/twitter-widget.php:15
+msgid "VisitPress Twitter Widget"
+msgstr "VisitPress Twitter Widget"
+
+#: functions/fe/twitter-widget.php:25
+msgid "Join us on Twitter"
+msgstr "Pripojte sa k nám na Twitteri"
+
+#: functions/fe/twitter-widget.php:46
+msgid "Twitter Username:"
+msgstr "Twitter užívateľské meno:"
+
+#: functions/fe/twitter-widget.php:50
+msgid "Insert your Twitter username. (ex: visitpress)."
+msgstr "Vložte Vaše užívateľské meno na sieti Twitter. (príklad: visitpress)."
+
+#: content.php:10
+msgid "Author"
+msgstr "Autor"
+
+#: content.php:10
+msgid "Category"
+msgstr "Kategórie"
+
+#: search.php:17
+msgid "Number of Results: "
+msgstr "Počet výsledkov:"
+
+#: content.php:10
+msgid " | <strong>Tags</strong>: "
+msgstr " | <strong>Značky</strong>: "
+
+#: functions.php:254 content.php:16
+msgid "Continue reading"
+msgstr "Pokračovať v čítaní"
+
+#: comments.php:43
+msgid "Leave a Comment"
+msgstr "Napísať komentár"
+
+#: comments.php:19
+msgid "Comment (1)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] "Komentár (1)"
+msgstr[1] "Komentáre (%1$s)"
+msgstr[2] "Komentáre (%1$s)"
+
+#: comments.php:42
+msgid "Your name"
+msgstr "Vaše meno"
+
+#: comments.php:43
+msgid "Website"
+msgstr "Web"
+
+#: comments.php:44
+msgid "Comment..."
+msgstr "Komentár..."
+
+#: searchform.php:10
+msgid "Search..."
+msgstr "Hľadať..."
+
+#: sidebar.php:12
+msgid "Sidebar navigation"
+msgstr "Postranná navigácia"

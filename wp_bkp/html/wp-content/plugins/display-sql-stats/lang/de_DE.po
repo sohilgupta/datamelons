@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Display SQL Stats\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-06 19:09+0100\n"
+"PO-Revision-Date: 2014-02-06 19:09+0100\n"
+"Last-Translator: Juergen Schulze <1manfactory@gmail.com>\n"
+"Language-Team: Juergen Schulze <1manfactory@gmail.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\\\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../display-stats-admin.php:4 ../display-stats-chart.php:4
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Sie haben nicht ausreichend Rechte, um auf diese Seite zuzugreifen."
+
+#: ../display-stats-admin.php:42
+msgid "Empty statement removed"
+msgstr "Leeres SQL Statement wurde entfernt"
+
+#: ../display-stats-admin.php:45
+msgid "Added new empty statement"
+msgstr "Neues leeres SQL Statement hinzugefügt"
+
+#: ../display-stats-admin.php:54
+msgid "Statement deleted"
+msgstr "SQL Statement gelöscht"
+
+#: ../display-stats-admin.php:59
+msgid " and stored to notepad"
+msgstr " und im Notizblock gepeichert"
+
+#: ../display-stats-admin.php:83
+msgid "Enter your SQL statement(s) and give it/them a title."
+msgstr "SQL Statement(s) eingeben und mit Titel(n) versehen."
+
+#: ../display-stats-admin.php:90
+msgid "Title: "
+msgstr "Titel:"
+
+#: ../display-stats-admin.php:111
+msgid "On"
+msgstr "An"
+
+#: ../display-stats-admin.php:112
+msgid "Off"
+msgstr "Aus"
+
+#: ../display-stats-admin.php:118
+msgid "Add a new SQL statement"
+msgstr "Neues SQL Statement hinzufügen"
+
+#: ../display-stats-admin.php:125
+#, fuzzy
+msgid "Delete this SQL stament"
+msgstr "Dieses SQL Statement löschen"
+
+#: ../display-stats-admin.php:138
+msgid "Show debug information in dashboard"
+msgstr "Debug Information in Dashboard anzeigen"
+
+#: ../display-stats-admin.php:140
+msgid "Store deleted statements in notepad"
+msgstr "Gelöschte SQL Statements im Notizblock speichern"
+
+#: ../display-stats-admin.php:144
+msgid "Notepad"
+msgstr "Notizblock"
+
+#: ../display-stats-admin.php:154
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: ../display-stats-getdata.php:19
+msgid "No results on: "
+msgstr "Kein Ergebnis für"
+
+#: ../display-stats.php:36
+msgid ""
+"Store whatever information you like here.\n"
+"Or try this statement:\n"
+"SELECT DATE_FORMAT (comment_date, \"%Y-%m-%d\") AS Date, COUNT(*) AS Count, "
+"3 AS Target FROM wp_comments  GROUP BY Date ORDER BY Date ASC"
+msgstr ""
+"Speichern Sie hier ihre Informationen.Oder versuchen Sie folgendes SQL "
+"StatementSELECT DATE_FORMAT (comment_date, \"%Y-%m-%d\") AS Date, COUNT(*) "
+"AS Count, 3 AS Target FROM wp_comments  GROUP BY Date ORDER BY Date ASC"
+
+#: ../display-stats.php:101
+msgid "SQL Error: "
+msgstr "SQL Fehler:"
+
+#: ../display-stats.php:147
+msgid "Settings"
+msgstr "Einstellungen"
+
+#~ msgid "Number of SQL Statements: "
+#~ msgstr "Anzahl SQL Statements"
+
+#, fuzzy
+#~ msgid ""
+#~ "Store whatever information you like here.\n"
+#~ "Or try this statement:\n"
+#~ msgstr "Speichern Sie ihre Informationen hier."
+
+#~ msgid "Display SQL Stats"
+#~ msgstr "Display SQL Stats"

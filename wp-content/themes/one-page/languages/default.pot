@@ -1,0 +1,259 @@
+# Copyright (C) 2013 BusinessGrow
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: BusinessGrow 1.0\n"
+"Report-Msgid-Bugs-To: admin@inkthemes.com"
+"POT-Creation-Date: 2012-01-11 12:47:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Inkthemes\n"
+
+
+#: define_template.php:2
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: define_template.php:3
+msgid "Gallery and Portfolio"
+msgstr ""
+
+#: define_template.php:4
+msgid "Portfolio"
+msgstr ""
+
+#: define_template.php:5
+msgid "Search Filter Tags"
+msgstr ""
+
+#: define_template.php:6
+msgid "Popular Filter Tags"
+msgstr ""
+
+#: define_template.php:7
+msgid "All Filter Tags"
+msgstr ""
+
+#: define_template.php:8
+msgid "Edit Filter Tags"
+msgstr ""
+
+#: define_template.php:9
+msgid "Update Filter Tags"
+msgstr ""
+
+#: define_template.php:10
+msgid "New Filter Tags Name"
+msgstr ""
+
+#: define_template.php:11
+msgid "Separate filter tags with commas"
+msgstr ""
+
+#: define_template.php:12
+msgid "Add New Filter Tags"
+msgstr ""
+
+#: define_template.php:13
+msgid "Add or remove filter tags"
+msgstr ""
+
+#: define_template.php:14
+msgid "Choose from the most used filter tags"
+msgstr ""
+
+#: define_template.php:15
+msgid "Filter"
+msgstr ""
+
+#: define_template.php:16
+msgid "Categories"
+msgstr ""
+
+#: define_template.php:17
+msgid "Archives"
+msgstr ""
+
+#: define_template.php:18
+msgid "Title"
+msgstr ""
+
+#: define_template.php:19
+msgid "Number of posts to show:"
+msgstr ""
+
+#: define_template.php:20
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: define_template.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: define_template.php:22
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: define_template.php:23
+msgid "Read More"
+msgstr ""
+
+#: define_template.php:24
+msgid "Primary Widget Area"
+msgstr ""
+
+#: define_template.php:25
+msgid "The primary widget area"
+msgstr ""
+
+#: define_template.php:26
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: define_template.php:27
+msgid "The secondary widget area"
+msgstr ""
+
+#: define_template.php:28
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: define_template.php:29
+msgid "The first footer widget area"
+msgstr ""
+
+#: define_template.php:30
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: define_template.php:31
+msgid "The second footer widget area"
+msgstr ""
+
+#: define_template.php:32
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: define_template.php:33
+msgid "The third footer widget area"
+msgstr ""
+
+#: define_template.php:34
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: define_template.php:35
+msgid "The fourth footer widget area"
+msgstr ""
+
+#: define_template.php:36
+msgid "Home"
+msgstr ""
+
+#: define_template.php:37
+msgid "Most used categories"
+msgstr ""
+
+#: define_template.php:38
+msgid "Bookmark the"
+msgstr ""
+
+#: define_template.php:39
+msgid "permalink"
+msgstr ""
+
+#: define_template.php:40
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: define_template.php:41
+msgid "&larr; Older posts"
+msgstr ""
+
+#: define_template.php:42
+msgid "Nothing Found"
+msgstr ""
+
+#: define_template.php:43
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: define_template.php:44
+msgid "Search Results for: %s"
+msgstr ""
+
+#: define_template.php:45
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: define_template.php:46
+msgid "Author Archives: %s"
+msgstr ""
+
+#: define_template.php:47
+msgid "About %s"
+msgstr ""
+
+#: define_template.php:48
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: define_template.php:49
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: define_template.php:50
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: define_template.php:51
+msgid "Blog Archives"
+msgstr ""
+
+#: define_template.php:52
+msgid "Main Menu"
+msgstr ""
+
+#: define_template.php:53
+msgid "Return to %s"
+msgstr ""
+
+#: define_template.php:54
+msgid "By %2$s"
+msgstr ""
+
+#: define_template.php:55
+msgid "View all posts by %s"
+msgstr ""
+
+#: define_template.php:56
+msgid "Published %2$s"
+msgstr ""
+
+#: define_template.php:57
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: define_template.php:58
+msgid "Link to full-size image"
+msgstr ""
+
+#: define_template.php:59
+msgid "Edit"
+msgstr ""
+
+#: define_template.php:60
+msgid "Pages:"
+msgstr ""
+
+#: define_template.php:61
+msgid "Category Archives: %s"
+msgstr ""
+
+#: define_template.php:62
+msgid "Page"
+msgstr ""
+
