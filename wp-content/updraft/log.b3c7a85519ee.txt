@@ -1,0 +1,11 @@
+0000.000 (0) Opened log file at time: Wed, 30 Apr 2014 17:52:04 +0000 on http://datamelons.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.8.12 WP: 3.8.1 PHP: 5.4.26 (Linux p3plcpnl0253.prod.phx3.secureserver.net 2.6.32-458.23.2.lve1.2.48.el6.x86_64 #1 SMP Fri Jan 3 11:26:27 EST 2014 x86_64) MySQL: 5.5.34-cll-lve Server: Apache mod_fcgid/2.3.10-dev safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24.5M | 26M) multisite: N mcrypt: Y ZipArchive::addFile: Y W3TC/ObjectCache: N
+0000.138 (0) Free space on disk containing Updraft's temporary directory: 2367496.1 Mb
+0000.142 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.144 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 
+0000.146 (0) Decremented the semaphore (fd) by 1
+0000.148 (0) Semaphore (fd) still locked
+0000.150 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.154 (0) An email has been scheduled for this job, because we are in debug mode
+0000.155 (0) No email will be sent - this backup set was empty.
+0000.156 (0) The backup has not finished; a resumption is scheduled

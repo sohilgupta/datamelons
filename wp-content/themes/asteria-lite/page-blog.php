@@ -15,6 +15,7 @@ Template Name: Blog Page Template
             </div> 
         <?php } ?>
 <!--BIG PAGE HEADER END-->
+
 <div class="lay4">
 <div class="center">
 

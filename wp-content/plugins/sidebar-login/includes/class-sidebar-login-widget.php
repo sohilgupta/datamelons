@@ -181,7 +181,7 @@ class Sidebar_Login_Widget extends WP_Widget {
 
 		    		$links['register'] = array(
 		    			'text' => __( 'Register', 'sidebar_login' ),
-		    			'href' => apply_filters( 'sidebar_login_widget_register_url', site_url( 'register', 'login' ) )
+		    			'href' => apply_filters( 'sidebar_login_widget_register_url', site_url( 'wp-login.php?action=register', 'login' ) )
 		    		);
 
 				} else {

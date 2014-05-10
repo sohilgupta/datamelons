@@ -3423,7 +3423,7 @@ jQuery(function() {
 						</label>
 					</td>
 					<td style="width:100%">
-                                    <input type="text" name="req_m"  size="40" value="<?php echo $row->req_m; ?>"/>
+                                    <input type="text" name="req_m" id="req_m_input" size="40" value="<?php echo $row->req_m; ?>"/>
 					</td>
                </tr>		   
 			   
@@ -3436,7 +3436,7 @@ jQuery(function() {
 						</label>
 					</td>
 							<td style="width:100%">
-                                    <input type="text" name="req_m" id="req_m_input"   size="40" value="<?php echo $row->req_m; ?>"/><span id="request_massage_spange_bob" style="color:#F00">*Is required.</span>
+                                    <input type="text" name="reg_red" id="reg_red_input"   size="40" value="<?php echo $row->reg_red; ?>"/>
 					</td>
                </tr>	
      <tr  id="log_red">

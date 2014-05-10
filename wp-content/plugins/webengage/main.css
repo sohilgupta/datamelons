@@ -1,0 +1,141 @@
+/* css used on webengage setting page */
+
+li, dd {
+	margin:0;
+	margin-bottom:6px;
+}
+
+h3{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.webengage-container ul li {
+	list-style-type:disc;
+}
+
+.webengage-container hr {
+	margin-top:14px;
+	margin-bottom:8px;
+	border:0;
+	border-top: 1px solid #AAA;
+	border-bottom: 1px solid white;
+}
+
+.webengage-container{
+	margin-top:20px;
+	font-size: 13px;
+}
+
+.webengage-logo-container{
+	padding: 10px;
+	padding-left: 20px;
+	border:1px solid #333;
+	background: #454a52 url('bg-header-holder.gif');
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+.webengage-logo-container span { 
+    display: inline-block; 
+    width: 200px;
+    height: 48px;
+    background: url('logo.png');
+}
+
+.webengage-container a {
+	text-decoration: none;
+}
+
+.webengage-form-container{
+	border:1px solid #eee;
+	border-bottom-color:#ddd;
+	border-right-color:#ddd;
+	background-color:#f9f9f9;
+	padding:10px;
+	padding-top:20px;
+	padding-bottom:20px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.webengage-instructions{
+	margin-top:20px;
+	padding:10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #eee;
+	border-bottom-color:#ddd;
+	border-right-color:#ddd;
+	background-color:#f9f9f9;
+}
+
+.webengage-iframe {
+	width : 100%;
+}
+
+.signup-iframe {
+	height:237px;
+}
+
+.email-verification-iframe {
+	height:212px;
+}
+
+.webengage-form {
+	padding: 10px;
+	margin: 10px;
+	background-color:#f1f1f1;
+	border: 1px solid #ddd;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+a.external_icon {
+	background: url(external.png) center right no-repeat;
+	padding-right: 13px;
+}
+
+.inline-forms {
+	float:left;
+	width:46%;
+}
+
+.sub-forms {
+	width:48%;
+	padding:20px
+}
+
+#message {
+	margin-top : 20px;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+div.updated {
+	border:2px solid #FC0;
+}
+
+div.error {
+	border:2px solid #C00;
+}
+
+.clear {
+	clear:all;
+}
+
+.discard-msg {
+	text-align : right;
+	display : block;
+	float : right;
+}

@@ -5,11 +5,11 @@
 	<div class="fixed_wrap fixindex">
 <!--Slider Area-->
 <div id="slidera">
+<?php get_sidebar(); ?>
 <?php if( get_option( 'asteria' )){ ?>
 			<?php if ( asteria_is_mobile() && (!empty($asteria['hide_mob_slide'])) ) { ?>
             <?php }else{ ?>
-            <?php $slidertype = $asteria['slider_type_id']; ?>
-            <?php get_template_part(''.$slidertype.''); ?>
+            <?php if( function_exists('cyclone_slider') ) cyclone_slider('105'); ?>
             <?php } ?>
 <?php }else{ ?>
     <?php get_template_part('dummy/dummy','nivo'); ?>
@@ -18,7 +18,7 @@
 
 <?php
 $home_blocks = $asteria['home_sort_id'];
-if (FALSE):
+if ($home_blocks):
 foreach ($home_blocks as $key=>$value) {
 
     switch($key) {

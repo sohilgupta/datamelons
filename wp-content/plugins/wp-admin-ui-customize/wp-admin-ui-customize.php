@@ -2,10 +2,10 @@
 /*
 Plugin Name: WP Admin UI Customize
 Description: An excellent plugin to customize the management screens.
-Plugin URI: http://wpadminuicustomize.com/?utm_source=use_plugin&utm_medium=list&utm_content=wauc&utm_campaign=1_4_4_1
-Version: 1.4.4.1
+Plugin URI: http://wpadminuicustomize.com/?utm_source=use_plugin&utm_medium=list&utm_content=wauc&utm_campaign=1_4_4_2
+Version: 1.4.4.2
 Author: gqevu6bsiz
-Author URI: http://gqevu6bsiz.chicappa.jp/?utm_source=use_plugin&utm_medium=list&utm_content=wauc&utm_campaign=1_4_4_1
+Author URI: http://gqevu6bsiz.chicappa.jp/?utm_source=use_plugin&utm_medium=list&utm_content=wauc&utm_campaign=1_4_4_2
 Text Domain: wauc
 Domain Path: /languages
 */
@@ -55,7 +55,7 @@ class WP_Admin_UI_Customize
 
 
 	function __construct() {
-		$this->Ver = '1.4.4.1';
+		$this->Ver = '1.4.4.2';
 		$this->Name = 'WP Admin UI Customize';
 		$this->Dir = plugin_dir_path( __FILE__ );
 		$this->Url = plugin_dir_url( __FILE__ );
@@ -129,7 +129,7 @@ class WP_Admin_UI_Customize
 		add_action( 'admin_menu' , array( $this , 'sidemenu_default_load' ) , 10000 );
 
 		// default post metabox load.
-		add_action( 'admin_head' , array( $this , 'post_meta_boxes_load' ) , 10 );
+		add_action( 'admin_head' , array( $this , 'post_meta_boxes_load' ) , 10000 );
 
 		// default post metabox dashbaord load.
 		add_action( 'admin_head' , array( $this , 'post_meta_boxes_dashboard_load' ) , 10 );

@@ -487,4 +487,10 @@ function asteria_admin() {
 	
 }
 add_action('redux-enqueue-asteria', 'asteria_admin');
+
+//Hiding personal Options like theme for subscriber
+function hide_personal_options(){
+echo "\n" . '<script type="text/javascript">jQuery(document).ready(function($) { $(\'form#your-profile > h3:first\').hide(); $(\'form#your-profile > table:first\').hide(); $(\'form#your-profile\').show(); });</script>' . "\n";
+}
+add_action('admin_head','hide_personal_options');
 ?>

@@ -3,28 +3,29 @@
 <div class="pbar_wrap"><div class="prog_wrap"><div class="progrssn" style="width:10%;"></div></div><div class="pbar" id='astbar'>0%</div></div>
             
             <div id="zn_nivo" class="zn_nivo">
-            <img src="http://datamelons.com/wp-content/uploads/2014/03/Slider1.png" alt="Analyze the  latest  Industry  trend." title="#nv_1"/>
-            <img src="http://datamelons.com/wp-content/uploads/2014/03/Slider2.png" alt="Decode the Consumer." title="#nv_2"/>	
-            <img src="http://datamelons.com/wp-content/uploads/2014/03/Slider3.png" alt="Ride the growth Trajectory." title="#nv_3"/>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/slides/slide1.jpg" alt="Lorem Ipsum Dolor Sit Amet" title="#nv_1"/>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/slides/slide2.jpg" alt="This is the Second Slide" title="#nv_2"/>	
+            <a href="<?php echo esc_url( home_url( '/' ) );?>"><img src="<?php echo get_template_directory_uri(); ?>/images/slides/slide3.jpg" alt="You can also add Links to your slides" title="#nv_3"/></a>
             </div>	
 
             <div id="nv_1">
             <div class="nivoinner sld_layout2">
-            <h3 class="entry-title"><a>Analyze the  latest  Industry  trend.</a></h3>
-                    <p>Lead the revolution</p>
+            <h3 class="entry-title"><a>Lorem Ipsum Dolor Sit Amet</a></h3>
+                    <p>This is the first slide</p>
              </div>
             </div>
             
             <div id="nv_2">
             <div class="nivoinner sld_layout3">
-            <h3 class="entry-title"><a>Decode the Consumer.</a></h3>
-                    <p>Print your presence</p>
+            <h3 class="entry-title"><a>The Second Slide</a></h3>
+                    <p>You can change how the content of the slider looks.</p>
              </div>
             </div>
             
             <div id="nv_3">
             <div class="nivoinner sld_layout1">
-            <h3 class="entry-title"><a>Ride the growth Trajectory.</a></h3>
+            <h3 class="entry-title"><a href="<?php echo esc_url( home_url( '/' ) );?>">You can also add Links</a></h3>
+                    <p>This slide contains a link in it's title and image.</p>
              </div>
             </div>
 

@@ -9,12 +9,7 @@
                 <div class="center"><h1 class="postitle"><?php the_title(); ?></h1></div>
             </div> 
         <?php } ?>
-<div class="breadcrumbs">
-    <?php if(function_exists('bcn_display'))
-    {
-        bcn_display();
-    }?>
-</div>
+
 <div id="content">
 	<div class="center">
 		<div class="single_wrap<?php if ( !is_active_sidebar( 'sidebar' ) ) { ?> no_sidebar<?php } ?>">

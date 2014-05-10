@@ -30,7 +30,7 @@
 		<?php if (!empty ($asteria['footer_text_id'])) { ?>
         <?php $foot = html_entity_decode($asteria['footer_text_id']); $foot = stripslashes($foot); echo $foot; ?>
         <?php }else{ ?>
-        <?php _e('Powered by Nitin Goyal', 'asteria');?>
+        <?php _e('Theme by', 'asteria');?> <a class="towfiq" target="_blank" href="http://www.towfiqi.com/">Towfiq I.</a>
         <?php } ?>
         </div>
         <!--Site Copyright Text END-->
